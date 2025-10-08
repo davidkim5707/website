@@ -1,27 +1,33 @@
 # Site Settings
-title: "Your Name - Academic Portfolio"
+title: "Your Name"
 email: your.email@university.edu
 description: >-
   Ph.D. Candidate in [Your Field] at [Your University].
   Research interests in [Your Research Areas].
-baseurl: "" # Leave empty for username.github.io
-url: "https://davidkim5707.github.io/website"
+baseurl: "/website"
+url: "https://davidkim5707.github.io"
 
 # Author Information
 author:
   name: "Your Name"
+  avatar: "/images/profile.jpg"
   bio: "Ph.D. Candidate in [Your Field]"
-  location: "[Your Location]"
+  location: "Department of [Your Department]<br>[Your University]"
   email: your.email@university.edu
-  googlescholar: "https://scholar.google.com/citations?user=YOUR_ID"
+  links:
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "mailto:your.email@university.edu"
+    - label: "Google Scholar"
+      icon: "fas fa-graduation-cap"
+      url: "https://scholar.google.com/citations?user=YOUR_ID"
 
 # Build Settings
 markdown: kramdown
-remote_theme: academicpages/academicpages.github.io
 plugins:
   - jekyll-feed
-  - jekyll-remote-theme
   - jekyll-include-cache
+  - jekyll-seo-tag
 
 # Reading Files
 include:

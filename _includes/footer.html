@@ -1,0 +1,21 @@
+<footer class="site-footer">
+  <div class="footer-links">
+    <a href="{{ '/sitemap/' | relative_url }}">Sitemap</a>
+  </div>
+
+  <div class="footer-follow">
+    <strong>Follow:</strong>
+    <a href="{{ '/feed.xml' | relative_url }}">
+      <i class="fas fa-rss"></i> Feed
+    </a>
+  </div>
+
+  <div class="footer-attribution">
+    <p>
+      &copy; {{ site.time | date: '%Y' }} {{ site.author.name }}.
+      Powered by <a href="http://jekyllrb.com" target="_blank" rel="noopener">Jekyll</a> &
+      <a href="https://github.com/academicpages/academicpages.github.io" target="_blank" rel="noopener">AcademicPages</a>,
+      a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" target="_blank" rel="noopener">Minimal Mistakes</a>.
+    </p>
+  </div>
+</footer>

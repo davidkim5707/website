@@ -3,8 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title }} | {{ site.title }}</title>
+    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
     <meta name="description" content="{{ site.description }}">
+
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 
     <!-- MathJax for mathematical notation -->
@@ -23,14 +28,27 @@
     {% endif %}
 </head>
 <body>
-    <div class="container">
-        <main>
-            {{ content }}
-        </main>
+    <!-- Masthead with site title (mobile only) -->
+    <div class="masthead">
+        <div class="masthead-inner">
+            <a href="{{ '/' | relative_url }}">{{ site.title | upcase }}</a>
+        </div>
+    </div>
 
-        <footer>
-            <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}. Powered by <a href="https://jekyllrb.com/">Jekyll</a> and hosted on <a href="https://pages.github.com/">GitHub Pages</a>.</p>
-        </footer>
+    <!-- Main layout container -->
+    <div class="page-wrapper">
+        <!-- Sidebar -->
+        {% include sidebar.html %}
+
+        <!-- Main content area -->
+        <div class="main-content">
+            <article>
+                {{ content }}
+            </article>
+
+            <!-- Footer -->
+            {% include footer.html %}
+        </div>
     </div>
 </body>
 </html>

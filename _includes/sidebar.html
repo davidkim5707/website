@@ -1,0 +1,31 @@
+<div class="sidebar">
+  <div class="author-profile">
+    {% if site.author.avatar %}
+    <img src="{{ site.author.avatar | relative_url }}" alt="{{ site.author.name }}" class="author-avatar">
+    {% endif %}
+
+    <h3 class="contact-heading">CONTACT</h3>
+
+    <div class="author-info">
+      {% if site.author.location %}
+      <p>{{ site.author.location }}</p>
+      {% endif %}
+
+      {% if site.author.email %}
+      <p>Email: {{ site.author.email }}</p>
+      {% endif %}
+    </div>
+
+    <ul class="author-links">
+      {% if site.author.links %}
+        {% for link in site.author.links %}
+        <li>
+          <a href="{{ link.url }}" {% if link.url contains 'http' %}target="_blank" rel="noopener noreferrer"{% endif %}>
+            <i class="{{ link.icon }}"></i> {{ link.label }}
+          </a>
+        </li>
+        {% endfor %}
+      {% endif %}
+    </ul>
+  </div>
+</div>
