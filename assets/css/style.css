@@ -35,6 +35,7 @@ body {
 
 .masthead-inner {
     padding: 15px 20px;
+    margin-left: 220px; /* Align with page-wrapper left margin */
 }
 
 .masthead a {
@@ -324,6 +325,10 @@ hr {
 
 /* Mobile */
 @media (max-width: 768px) {
+    .masthead-inner {
+        margin-left: 0; /* Remove margin on mobile */
+    }
+
     .page-wrapper {
         flex-direction: column;
     }
