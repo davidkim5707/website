@@ -31,11 +31,22 @@ body {
     border-bottom: 1px solid #e0e0e0;
     z-index: 1000;
     display: block; /* Visible on all devices */
+    transition: all 0.3s ease; /* Smooth transition */
 }
 
 .masthead-inner {
     padding: 15px 20px;
     margin-left: 220px; /* Align with page-wrapper left margin */
+    transition: all 0.3s ease; /* Smooth transition */
+}
+
+/* Scrolled state - smaller bar */
+.masthead.scrolled .masthead-inner {
+    padding: 8px 20px;
+}
+
+.masthead.scrolled a {
+    font-size: 1em; /* Slightly smaller when scrolled */
 }
 
 .masthead a {
