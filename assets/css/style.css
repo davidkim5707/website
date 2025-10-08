@@ -49,7 +49,7 @@ body {
 .page-wrapper {
     display: flex;
     min-height: 100vh;
-    margin-left: 150px;
+    margin-left: 220px;
 }
 
 /* ===========================
@@ -71,8 +71,8 @@ body {
 }
 
 .author-avatar {
-    width: 150px;
-    height: 150px;
+    width: 180px;
+    height: 220px;
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 20px;
