@@ -6,40 +6,10 @@ title: About
 # ABOUT
 
 - Ph.D. Candidate in Economics, University of Virginia (Expected May 2027)
-- MA in Economics, University of Virginia (2025)
-- MA in Economics, Yonsei University, Seoul, Korea (2021)
+- Research Assistant, [EconTAI](https://www.econtai.org/) (Prof. Korink), Fall 2025 - ongoing
 - [CV](cv/cv.pdf)
 
-# RESEARCH
-
-## _FIELDS OF INTEREST_
-
-Monetary Policy, Fiscal Policy, Time Series Analysis, AI in Economics
-
-## _WORKING PAPERS_
-
-<dl>
-  <dt>Blending Heteroskedasticity and Sign Restrictions: Restoring Rotational Invariance</dt>
-</dl>
-
-## _WORK IN PROGRESS_
-
-<dl>
-  <dt>From Underestimation to Overshooting? A Reappraisal of IMF Fiscal Multiplier Assumptions Across Crises</dt>
-  <dd>with Jeremie Cohen-Setton (International Monetary Fund)</dd>
-</dl>
-
-## _PUBLICATION_
-
-<dl>
-  <dt>The Macroeconomic Consequences of Stimulating Offline Consumption during COVID-19</dt>
-  <dd>with Myunkyu Shim (Yonsei University) and Minseung Kim</dd>
-  <dd><strong><em>Global Economic Review</em></strong>, March 2021</dd>
-</dl>
-
-# EXPERIENCE
-
-## _ACADEMIC APPOINTMENTS_
+# ACADEMIC APPOINTMENTS
 
 <dl>
   <dt>Short-Term Consultant (Paid), IMF, IEO</dt>
@@ -53,31 +23,26 @@ Monetary Policy, Fiscal Policy, Time Series Analysis, AI in Economics
   <dd>Contributed to fiscal policy evaluation and forecast error analysis</dd>
 </dl>
 
-## _RESEARCH EXPERIENCE_
+# RESEARCH
+
+## _WORKING PAPERS_
 
 <dl>
-  <dt>Research Assistant, University of Virginia</dt>
-  <dd>EconTAI (Prof. Korink), Fall 2025 - ongoing</dd>
+  <dt><a href="https://github.com/davidkim5707/svar-svsr/blob/main/SVAR_sign_hetero.pdf">Blending Heteroskedasticity and Sign Restrictions: Restoring Rotational Invariance</a></dt>
+  <dd><a href="https://github.com/davidkim5707/svar-svsr">GitHub Repository</a></dd>
 </dl>
+
+## _WORK IN PROGRESS_
 
 <dl>
-  <dt>Research Assistant, Yonsei University, Seoul, Korea</dt>
-  <dd>Prof. Myunkyu Shim, Fall 2020</dd>
+  <dt>From Underestimation to Overshooting? A Reappraisal of IMF Fiscal Multiplier Assumptions Across Crises</dt>
+  <dd>with Jeremie Cohen-Setton (International Monetary Fund)</dd>
 </dl>
+
+## _PRE-DOC PUBLICATION_
 
 <dl>
-  <dt>Technical Assistant, Ministry of Finance and Samsung</dt>
-  <dd>Spring 2021</dd>
-  <dd>Converted MATLAB code to Python for WEI and Nowcasting models</dd>
+  <dt><a href="https://www.tandfonline.com/doi/full/10.1080/1226508X.2021.1875868">The Macroeconomic Consequences of Stimulating Offline Consumption during COVID-19</a></dt>
+  <dd>with Myunkyu Shim (Yonsei University) and Minseung Kim</dd>
+  <dd><strong><em>Global Economic Review</em></strong>, March 2021</dd>
 </dl>
-
-## _TEACHING EXPERIENCE_
-
-**University of Virginia**
-- Intro to Econometrics (Prof. Rafi), Fall 2024
-- Money and Banking (Prof. Carter), Spring 2023
-- Principles of Macroeconomics (Prof. Carter), Fall 2022, 2023
-- Principles of Microeconomics (Prof. Carter), Spring, Summer 2025
-
-**Yonsei University**
-- Advanced Macroeconomic Theory (Prof. Cho), Fall 2019

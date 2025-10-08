@@ -21,6 +21,9 @@ author:
     - label: "LinkedIn"
       icon: "fab fa-linkedin"
       url: "https://linkedin.com/in/dawis-kim-9977a824a"
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/davidkim5707"
 
 # Build Settings
 markdown: kramdown
