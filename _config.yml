@@ -24,6 +24,9 @@ author:
     - label: "GitHub"
       icon: "fab fa-github"
       url: "https://github.com/davidkim5707"
+    - label: "Google Scholar"
+      icon: "fas fa-graduation-cap"
+      url: "https://scholar.google.com/citations?user=wZhp1a8AAAAJ&hl=en"
 
 # Build Settings
 markdown: kramdown
