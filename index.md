@@ -5,62 +5,79 @@ title: About
 
 # ABOUT
 
-- Ph.D. Candidate in [Your Field], [Your University]
-- [Your Fellowship or Award, if applicable]
-- [CV](cv.pdf)
+- Ph.D. Candidate in Economics, University of Virginia (Expected May 2027)
+- MA in Economics, University of Virginia (2025)
+- MA in Economics, Yonsei University, Seoul, Korea (2021)
+- [CV](cv/cv.pdf)
 
 # RESEARCH
+
+## _FIELDS OF INTEREST_
+
+Monetary Policy, Fiscal Policy, Time Series Analysis, AI in Economics
 
 ## _WORKING PAPERS_
 
 <dl>
-  <dt><a href="#">Voting on a Promise: Did the Proposed Student Loan Forgiveness Impact Electoral Outcomes?</a></dt>
-  <dd>with [Co-author Name] and [Co-author Name]</dd>
-  <dd>October 2025 <em>Under Review</em></dd>
-</dl>
-
-<dl>
-  <dt><a href="#">Labor, Loans, and Leisure: The Impact of the Student Loan Payment Pause</a></dt>
-  <dd>with [Co-author Name]</dd>
-  <dd>March 2025 <em>Under Review</em></dd>
-  <dd><a href="#">NBER working paper #XXXXX</a></dd>
-</dl>
-
-## _PUBLICATIONS_
-
-<dl>
-  <dt><a href="#">Waivers for the Public Service Loan Forgiveness Program: Who Would Benefit from Take-up?</a></dt>
-  <dd>2024 (with [Co-author Name] and [Co-author Name])</dd>
-  <dd><strong><em>Journal of Policy Analysis and Management</em></strong>, 43, 1004–1033. <a href="#">Online appendix</a> | <a href="#">NBER working paper #XXXXX</a></dd>
+  <dt>Blending Heteroskedasticity and Sign Restrictions: Restoring Rotational Invariance</dt>
 </dl>
 
 ## _WORK IN PROGRESS_
 
-**Credit Scars: Credit Reporting Relief for Defaulted Student Loan Borrowers**
-
-**A Fresh Start for Borrowers? Impacts of Loan Rehabilitation for Defaulted Federal Student Borrowers**
-
 <dl>
-  <dt>The Long Term Impacts of English Learner Programs: Evidence from Bilingual Education in Texas</dt>
-  <dd>University of [Your University] Education Research Center Approved Project No. XX XXX</dd>
+  <dt>From Underestimation to Overshooting? A Reappraisal of IMF Fiscal Multiplier Assumptions Across Crises</dt>
+  <dd>with Jeremie Cohen-Setton (International Monetary Fund)</dd>
 </dl>
 
-## _OTHER PUBLICATIONS_
+## _PUBLICATION_
 
 <dl>
-  <dt><a href="#">Revitalizing PSLF: What's Next After the Waiver</a></dt>
-  <dd>December 2023</dd>
-  <dd><strong><em>Third Way ACADEMIX Upshot Policy Brief</em></strong></dd>
+  <dt>The Macroeconomic Consequences of Stimulating Offline Consumption during COVID-19</dt>
+  <dd>with Myunkyu Shim (Yonsei University) and Minseung Kim</dd>
+  <dd><strong><em>Global Economic Review</em></strong>, March 2021</dd>
+</dl>
+
+# EXPERIENCE
+
+## _ACADEMIC APPOINTMENTS_
+
+<dl>
+  <dt>Short-Term Consultant (Paid), IMF, IEO</dt>
+  <dd>Fall 2024</dd>
+  <dd>Follow-up work from IMF-FIP internship</dd>
 </dl>
 
 <dl>
-  <dt><a href="#">Student Loan Payment Pause Benefits High-Income Households the Most: With forgiveness uncertain, struggling borrowers are unprotected from risk</a></dt>
-  <dd>January 2023 (with [Co-author Name] and [Co-author Name])</dd>
-  <dd><strong><em>Education Next</em></strong>, 23(3), 40-47. <a href="#">EdPolicyWorks working paper #XX</a></dd>
+  <dt>Fund Internship Program (FIP), IMF, IEO</dt>
+  <dd>Summer 2024</dd>
+  <dd>Contributed to fiscal policy evaluation and forecast error analysis</dd>
+</dl>
+
+## _RESEARCH EXPERIENCE_
+
+<dl>
+  <dt>Research Assistant, University of Virginia</dt>
+  <dd>EconTAI (Prof. Korink), Fall 2025 - ongoing</dd>
 </dl>
 
 <dl>
-  <dt>Performance Measures and Postsecondary Investments for Adult Students: Available "YardSticks" and the Challenges of Institutional Comparisons</dt>
-  <dd>January 2022 (with [Co-author Name])</dd>
-  <dd>In <a href="#"><strong><em>Student Outcomes and Earnings in Higher Education Policy</em></strong></a>, edited by [Editor Name], American Enterprise Institute</dd>
+  <dt>Research Assistant, Yonsei University, Seoul, Korea</dt>
+  <dd>Prof. Myunkyu Shim, Fall 2020</dd>
 </dl>
+
+<dl>
+  <dt>Technical Assistant, Ministry of Finance and Samsung</dt>
+  <dd>Spring 2021</dd>
+  <dd>Converted MATLAB code to Python for WEI and Nowcasting models</dd>
+</dl>
+
+## _TEACHING EXPERIENCE_
+
+**University of Virginia**
+- Intro to Econometrics (Prof. Rafi), Fall 2024
+- Money and Banking (Prof. Carter), Spring 2023
+- Principles of Macroeconomics (Prof. Carter), Fall 2022, 2023
+- Principles of Microeconomics (Prof. Carter), Spring, Summer 2025
+
+**Yonsei University**
+- Advanced Macroeconomic Theory (Prof. Cho), Fall 2019
