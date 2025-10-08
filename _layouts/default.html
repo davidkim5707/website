@@ -51,16 +51,24 @@
         </div>
     </div>
 
-    <!-- Scroll effect for masthead -->
+    <!-- Scroll effect for masthead - hide on scroll down, show on scroll up -->
     <script>
+        var lastScrollTop = 0;
+        var masthead = document.querySelector('.masthead');
+
         window.addEventListener('scroll', function() {
-            var masthead = document.querySelector('.masthead');
-            if (window.scrollY > 50) {
-                masthead.classList.add('scrolled');
+            var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+            if (scrollTop > lastScrollTop && scrollTop > 100) {
+                // Scrolling down & past 100px - hide masthead
+                masthead.classList.add('hidden');
             } else {
-                masthead.classList.remove('scrolled');
+                // Scrolling up or near top - show masthead
+                masthead.classList.remove('hidden');
             }
-        });
+
+            lastScrollTop = scrollTop <= 0 ? 0 : scrollTop;
+        }, false);
     </script>
 </body>
 </html>

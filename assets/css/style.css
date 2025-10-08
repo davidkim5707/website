@@ -40,13 +40,9 @@ body {
     transition: all 0.3s ease; /* Smooth transition */
 }
 
-/* Scrolled state - smaller bar */
-.masthead.scrolled .masthead-inner {
-    padding: 8px 20px;
-}
-
-.masthead.scrolled a {
-    font-size: 1em; /* Slightly smaller when scrolled */
+/* Hidden state - hide bar when scrolling down */
+.masthead.hidden {
+    transform: translateY(-100%);
 }
 
 .masthead a {
