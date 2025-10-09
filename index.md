@@ -46,3 +46,11 @@ title: About
   <dd>with Myunkyu Shim (Yonsei University) and Minseung Kim</dd>
   <dd><strong><em>Global Economic Review</em></strong>, March 2021</dd>
 </dl>
+
+# REPLICATION EXERCISES
+
+<dl>
+  <dt><a href="https://github.com/davidkim5707/replications/tree/main/Bianchi_Dynare">Inflation as a Fiscal Limit</a></dt>
+  <dd>Replication of Bianchi and Melosi (2023) using MATLAB/Dynare</dd>
+  <dd>Explores monetary and fiscal policy interactions across different regime specifications</dd>
+</dl>
