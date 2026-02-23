@@ -7,7 +7,7 @@ title: About
 
 - Ph.D. Candidate in Economics, University of Virginia (Expected May 2027)
 - Research Assistant, [EconTAI](https://www.econtai.org/) (Prof. Korink), Fall 2025 - ongoing
-- [CV](cv/cv.pdf)
+- [CV](https://www.dropbox.com/scl/fi/8b30gc422zy50yfckqey7/cv.pdf?rlkey=xj8bc9zq4xbnx8argdieoe84o&st=bd87yldw&raw=1)
 
 # ACADEMIC APPOINTMENTS
 
@@ -25,22 +25,22 @@ title: About
 
 # RESEARCH
 
-## _WORKING PAPERS_
-
-<dl>
-  <dt><a href="https://github.com/davidkim5707/svar-svsr/blob/main/SVAR_sign_hetero.pdf">Blending Heteroskedasticity and Sign Restrictions: Restoring Rotational Invariance</a></dt>
-  <dd><a href="https://github.com/davidkim5707/svar-svsr">GitHub Repository</a></dd>
-</dl>
-
 ## _WORK IN PROGRESS_
 
 <dl>
-  <dt>Real Effects of Quantitative Tightening</dt>
+  <dt>Signal vs. Implementation: Disentangling the Asymmetric Effects of QE and QT</dt>
+  <dd><a href="https://www.dropbox.com/scl/fi/5cq855n5b4onpups8q99o/empirical_method.pdf?rlkey=l7okybey3smvch2lqnqjjpkhd&st=unkf8tx7&raw=1">[Preliminary Draft]</a></dd>
+</dl>
+
+<dl>
+  <dt>Blending Heteroskedasticity and Sign Restrictions: Restoring Rotation Invariance</dt>
+  <dd>with <em>Tao Zha (Emory University)</em></dd>
+  <dd><a href="https://www.dropbox.com/scl/fi/1b9pkmj9n5wzwrkps4tc7/SVAR_sign_hetero.pdf?rlkey=cbf9t4in2e2y1sji00fzcybbr&st=mzp9todf&raw=1">[Initial Draft]</a> (Single-authored version)</dd>
 </dl>
 
 <dl>
   <dt>From Underestimation to Overshooting? A Reappraisal of IMF Fiscal Multiplier Assumptions Across Crises</dt>
-  <dd>with Jeremie Cohen-Setton (International Monetary Fund)</dd>
+  <dd>with <em>Jeremie Cohen-Setton (International Monetary Fund)</em></dd>
 </dl>
 
 ## _PRE-DOC PUBLICATION_
