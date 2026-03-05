@@ -29,11 +29,11 @@ title: About
 
 <dl>
   <dt>Signal vs. Implementation: Disentangling the Asymmetric Effects of QE and QT</dt>
-  <dd><a href="https://www.dropbox.com/scl/fi/5cq855n5b4onpups8q99o/empirical_method.pdf?rlkey=l7okybey3smvch2lqnqjjpkhd&st=unkf8tx7&raw=1">[Preliminary Draft]</a></dd>
+  <dd><a href="https://www.dropbox.com/scl/fi/66pm0oi5v1gpeltv7v90a/main_project.pdf?rlkey=xx2zc6g3ni9y4k3b89fmtgqhl&st=q72awlh6&raw=1">[Preliminary Draft]</a></dd>
 </dl>
 
 <dl>
-  <dt>Blending Heteroskedasticity and Sign Restrictions: Restoring Rotation Invariance</dt>
+  <dt>Blending Heteroskedasticity and Sign Restrictions: Restoring Rotation Invariance (tentative title)</dt>
   <dd>with <em>Tao Zha (Emory University)</em></dd>
   <dd><a href="https://www.dropbox.com/scl/fi/1b9pkmj9n5wzwrkps4tc7/SVAR_sign_hetero.pdf?rlkey=cbf9t4in2e2y1sji00fzcybbr&st=mzp9todf&raw=1">[Initial Draft]</a> (Single-authored version)</dd>
 </dl>
