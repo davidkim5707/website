@@ -31,6 +31,12 @@ title: About
   <dt>Signal vs. Implementation: Disentangling the Asymmetric Effects of QE and QT</dt>
   <dd><a href="https://www.dropbox.com/scl/fi/66pm0oi5v1gpeltv7v90a/main_project.pdf?rlkey=xx2zc6g3ni9y4k3b89fmtgqhl&st=q72awlh6&raw=1">[Preliminary Draft]</a></dd>
   <dd class="presentation-note">Scheduled for presentation at the <em>2026 North American Summer Meeting</em> (Econometric Society), Atlanta, GA, June, 2026</dd>
+  <dd class="abstract-toggle">
+    <details>
+      <summary>Abstract</summary>
+      <p>I disentangle the asymmetric effects of Quantitative Easing (QE) and Quantitative Tightening (QT) using a Structural VAR that combines external instruments, regime-dependent heteroskedasticity, and a Maximum Forecast Error Variance (MFEV) criterion. High-frequency monetary policy surprises strongly predict the federal funds rate and QE flows but carry no information for QT flows, motivating a geometric separation that restricts the Rate and QE shocks to a policy-news subspace and identifies the QT shock from its orthogonal complement. The baseline QE news shock raises the price level and widens credit spreads but has limited pass-through to real output. Once I impose pseudo-zero restrictions to strip out forward guidance bundled at the effective lower bound, these nominal effects attenuate and the pure QE channel operates narrowly through term premium compression with no independent traction on output or inflation. QT, by contrast, exerts a persistent contractionary drag on industrial production that survives the same restriction, confirming that balance sheet runoff transmits through a reserve-drainage channel distinct from both rate policy and QE signaling. A stylized three-period model with bond market segmentation and a concave bank lending function rationalizes the asymmetry.</p>
+    </details>
+  </dd>
 </dl>
 
 <dl>

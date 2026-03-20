@@ -261,6 +261,48 @@ dd.presentation-note {
     margin-top: -0.2em;
 }
 
+dd.abstract-toggle {
+    margin-top: 0.3em;
+}
+
+dd.abstract-toggle details summary {
+    cursor: pointer;
+    font-size: 0.9em;
+    color: #7a8288;
+    font-weight: 600;
+    list-style: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3em;
+}
+
+dd.abstract-toggle details summary::-webkit-details-marker {
+    display: none;
+}
+
+dd.abstract-toggle details summary::before {
+    content: "▸";
+    font-size: 0.8em;
+    transition: transform 0.2s ease;
+}
+
+dd.abstract-toggle details[open] summary::before {
+    transform: rotate(90deg);
+}
+
+dd.abstract-toggle details[open] {
+    border-top: 1px solid #e0e0e0;
+    padding-top: 0.6em;
+    margin-top: 0.4em;
+}
+
+dd.abstract-toggle details p {
+    font-size: 0.88em;
+    color: #6d7479;
+    line-height: 1.65;
+    margin-top: 0.5em;
+}
+
 /* ===========================
    Horizontal Rules
    =========================== */
