@@ -341,11 +341,12 @@ hr {
 /* Mobile */
 @media (max-width: 768px) {
     .masthead-inner {
-        margin-left: 0; /* Remove margin on mobile */
+        margin-left: 0;
     }
 
     .page-wrapper {
         flex-direction: column;
+        margin-left: 0;
     }
 
     .sidebar {
