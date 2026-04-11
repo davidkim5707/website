@@ -29,7 +29,7 @@ title: About
 
 <dl>
   <dt>News vs. Implementation: Disentangling the Asymmetric Effects of QE and QT</dt>
-  <dd><a href="https://www.dropbox.com/scl/fi/66pm0oi5v1gpeltv7v90a/main_project.pdf?rlkey=xx2zc6g3ni9y4k3b89fmtgqhl&st=q72awlh6&raw=1">[Preliminary Draft]</a></dd>
+  <dd><a href="https://www.dropbox.com/scl/fi/j4mqvm9bai9zj3odgtogo/main_project.pdf?rlkey=j12lc8c87jql0tyjua7kfkpmx&st=rdtfc5v0&raw=1">[Preliminary Draft]</a></dd>
   <dd class="presentation-note">Scheduled for presentation at the <em>2026 North American Summer Meeting</em> (Econometric Society), Atlanta, GA, June, 2026</dd>
   <dd class="abstract-toggle">
     <details>
