@@ -6,7 +6,6 @@ title: About
 # ABOUT
 
 - Ph.D. Candidate in Economics, University of Virginia (Expected May 2027)
-- Research Assistant, [EconTAI](https://www.econtai.org/) (Prof. Korink), Fall 2025 - ongoing
 - [CV](https://www.dropbox.com/scl/fi/c4uq7ef84mt263tydrm8i/Dawis_Kim_CV.pdf?rlkey=i1wwnm8q14e2rxq02g4kyxkgn&st=96sv37r7&raw=1)
 
 # ACADEMIC APPOINTMENTS
