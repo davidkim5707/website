@@ -441,27 +441,14 @@ dd:last-child {
     margin-bottom: 0;
 }
 
-/* Status Badges */
-dd a[href*="pdf"]::before,
-dd a[href*="draft"]::before {
-    content: '📄';
-    margin-right: var(--space-xs);
-}
+/* Status Badges - removed for professional appearance */
 
 /* Presentation Note */
 dd.presentation-note {
     font-size: 0.875rem;
-    color: var(--color-text-tertiary);
-    padding: var(--space-md);
-    background-color: var(--color-accent-light);
-    border-left: 3px solid var(--color-accent);
-    border-radius: var(--radius-sm);
-    margin-top: var(--space-md);
-}
-
-dd.presentation-note::before {
-    content: '🎤 ';
-    margin-right: var(--space-xs);
+    color: var(--color-text-secondary);
+    font-style: italic;
+    margin-top: var(--space-sm);
 }
 
 /* Abstract Toggle */
