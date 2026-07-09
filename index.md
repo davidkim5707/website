@@ -59,7 +59,7 @@ title: About
 
 <dl>
   <dt><a href="https://www.tandfonline.com/doi/full/10.1080/1226508X.2021.1875868">The Macroeconomic Consequences of Stimulating Offline Consumption during COVID-19</a></dt>
-  <dd>with <a href="https://myungkyushim.weebly.com/" target="_blank">Myunkyu Shim</a> (Yonsei University) and Minseung Kim</dd>
+  <dd>with <a href="https://sites.google.com/view/myungkyushim/home" target="_blank">Myunkyu Shim</a> (Yonsei University) and Minseung Kim</dd>
   <dd><strong><em>Global Economic Review</em></strong>, March 2021</dd>
 </dl>
 
