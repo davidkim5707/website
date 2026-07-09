@@ -379,6 +379,28 @@ dl:hover {
     padding-left: var(--space-md);
 }
 
+/* Tighter spacing for academic appointments only */
+#academic-appointments ~ dl:not(#research ~ dl) {
+    margin-bottom: var(--space-sm);
+    padding: var(--space-xs) 0;
+    border-bottom: none;
+}
+
+#academic-appointments ~ dl:not(#research ~ dl):last-of-type {
+    margin-bottom: var(--space-xl);
+}
+
+#academic-appointments ~ dl:not(#research ~ dl) dd {
+    margin-bottom: var(--space-xs);
+    font-size: 0.875rem;
+    line-height: 1.5;
+}
+
+#academic-appointments ~ dl:not(#research ~ dl) dt {
+    margin-bottom: var(--space-xs);
+    font-size: 1rem;
+}
+
 dt {
     font-family: var(--font-serif);
     font-weight: 600;
