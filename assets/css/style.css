@@ -104,23 +104,35 @@ body {
 }
 
 .masthead-inner {
-    padding: var(--space-lg) var(--space-xl);
+    padding: var(--space-md) var(--space-xl);
     margin-left: 280px;
     transition: all var(--transition-base);
 }
 
-
-.masthead a {
-    color: var(--color-text-primary);
-    text-decoration: none;
-    font-size: 1.125rem;
-    font-weight: 600;
-    letter-spacing: -0.025em;
-    transition: color var(--transition-fast);
+.masthead-nav {
+    display: flex;
+    gap: var(--space-xl);
+    align-items: center;
 }
 
-.masthead a:hover {
-    color: var(--color-accent);
+.masthead-nav .nav-link {
+    color: var(--color-text-secondary);
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+    transition: all var(--transition-fast);
+    padding: var(--space-sm) 0;
+    border-bottom: 2px solid transparent;
+}
+
+.masthead-nav .nav-link:hover {
+    color: var(--color-text-primary);
+    border-bottom-color: var(--color-accent);
+}
+
+.masthead-nav .nav-link::after {
+    display: none;
 }
 
 /* ===========================
@@ -168,6 +180,18 @@ body {
 .author-avatar:hover {
     transform: scale(1.05);
     box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.15);
+}
+
+.author-name {
+    font-family: var(--font-sans);
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--color-text-primary);
+    margin: 0 0 var(--space-xl) 0;
+    padding: 0;
+    border: none;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
 }
 
 .contact-heading {
@@ -261,14 +285,16 @@ h1:first-child {
 
 h2 {
     font-family: var(--font-sans);
-    font-size: 0.875rem;
+    font-size: 1.1rem;
     line-height: 1.4;
     margin-top: var(--space-2xl);
-    margin-bottom: var(--space-lg);
+    margin-bottom: var(--space-xl);
     font-weight: 700;
-    color: var(--color-text-secondary);
-    letter-spacing: 0.1em;
+    color: var(--color-text-primary);
+    letter-spacing: 0.05em;
     text-transform: uppercase;
+    padding-bottom: var(--space-sm);
+    border-bottom: 1px solid var(--color-border);
 }
 
 h3 {
@@ -590,7 +616,15 @@ hr {
 
     .masthead-inner {
         margin-left: 0;
-        padding: var(--space-md) var(--space-lg);
+        padding: var(--space-sm) var(--space-lg);
+    }
+
+    .masthead-nav {
+        gap: var(--space-md);
+    }
+
+    .masthead-nav .nav-link {
+        font-size: 0.8rem;
     }
 
     .page-wrapper {

@@ -4,11 +4,13 @@ title: About
 ---
 
 # ABOUT
+{: #about}
 
 - Ph.D. Candidate in Economics, University of Virginia (Expected May 2027)
 - [CV](https://www.dropbox.com/scl/fi/c4uq7ef84mt263tydrm8i/Dawis_Kim_CV.pdf?rlkey=i1wwnm8q14e2rxq02g4kyxkgn&st=96sv37r7&raw=1)
 
 # ACADEMIC APPOINTMENTS
+{: #academic-appointments}
 
 <dl>
   <dt>Short-Term Consultant (Paid), IMF, IEO</dt>
@@ -23,6 +25,7 @@ title: About
 </dl>
 
 # RESEARCH
+{: #research}
 
 ## _WORKING PAPERS_
 
@@ -60,6 +63,7 @@ title: About
 </dl>
 
 # REPLICATION EXERCISES
+{: #replication-exercises}
 
 <dl>
   <dt><a href="https://github.com/davidkim5707/replications/tree/main/Bianchi_Dynare">Inflation as a Fiscal Limit</a></dt>
