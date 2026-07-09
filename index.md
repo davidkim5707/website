@@ -40,7 +40,7 @@ title: About
 <dl>
   <dt>News vs. Implementation: Disentangling the Asymmetric Effects of QE and QT</dt>
   <dd><a href="https://www.dropbox.com/scl/fi/j4mqvm9bai9zj3odgtogo/main_project.pdf?rlkey=j12lc8c87jql0tyjua7kfkpmx&st=rdtfc5v0&raw=1">[Preliminary Draft]</a></dd>
-  <dd class="presentation-note">2026 North American Summer Meeting (Econometric Society)*</dd>
+  <dd class="presentation-note">2026 North American Summer Meeting (Econometric Society)</dd>
   <dd class="presentation-note">2026 SEA (Southern Economic Association)*</dd>
   <dd class="abstract-toggle">
     <details>
