@@ -31,7 +31,7 @@ title: About
 
 <dl>
   <dt>Sharpening Economic Interpretation with HARS</dt>
-  <dd>with <em>Tao Zha (Emory University)</em></dd>
+  <dd>with <em><a href="http://www.tzha.net/" target="_blank">Tao Zha</a> (Emory University)</em></dd>
   <dd><a href="https://www.dropbox.com/scl/fi/1b9pkmj9n5wzwrkps4tc7/SVAR_sign_hetero.pdf?rlkey=cbf9t4in2e2y1sji00fzcybbr&st=mzp9todf&raw=1">[Single-authored version]</a></dd>
 </dl>
 
@@ -59,7 +59,7 @@ title: About
 
 <dl>
   <dt><a href="https://www.tandfonline.com/doi/full/10.1080/1226508X.2021.1875868">The Macroeconomic Consequences of Stimulating Offline Consumption during COVID-19</a></dt>
-  <dd>with Myunkyu Shim (Yonsei University) and Minseung Kim</dd>
+  <dd>with <a href="https://myungkyushim.weebly.com/" target="_blank">Myunkyu Shim</a> (Yonsei University) and Minseung Kim</dd>
   <dd><strong><em>Global Economic Review</em></strong>, March 2021</dd>
 </dl>
 
