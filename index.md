@@ -27,6 +27,8 @@ title: About
 # RESEARCH
 {: #research}
 
+<p style="font-size: 0.9em; color: #666; margin-bottom: 1em;">* indicates scheduled presentation</p>
+
 ## _WORKING PAPERS_
 
 <dl>
