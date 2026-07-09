@@ -7,7 +7,7 @@ title: About
 {: #about}
 
 - Ph.D. Candidate in Economics, University of Virginia (Expected May 2027)
-- [CV](https://www.dropbox.com/scl/fi/c4uq7ef84mt263tydrm8i/Dawis_Kim_CV.pdf?rlkey=i1wwnm8q14e2rxq02g4kyxkgn&st=96sv37r7&raw=1)
+- [CV](https://www.dropbox.com/scl/fi/c4uq7ef84mt263tydrm8i/Dawis_Kim_CV.pdf?rlkey=i1wwnm8q14e2rxq02g4kyxkgn&st=96sv37r7&raw=1) <span style="font-size: 0.85em; color: #666;">(last updated July 2026)</span>
 
 # ACADEMIC APPOINTMENTS
 {: #academic-appointments}
