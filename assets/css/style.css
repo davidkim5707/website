@@ -167,8 +167,8 @@ body {
 }
 
 .author-avatar {
-    width: 160px;
-    height: 160px;
+    width: 200px;
+    height: 200px;
     border-radius: var(--radius-full);
     object-fit: cover;
     margin: 0 auto var(--space-xl);
