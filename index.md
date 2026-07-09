@@ -25,6 +25,14 @@ title: About
 
 # RESEARCH
 
+## _WORKING PAPERS_
+
+<dl>
+  <dt>Sharpening Economic Interpretation with HARS</dt>
+  <dd>with <em>Tao Zha (Emory University)</em></dd>
+  <dd><a href="https://www.dropbox.com/scl/fi/1b9pkmj9n5wzwrkps4tc7/SVAR_sign_hetero.pdf?rlkey=cbf9t4in2e2y1sji00fzcybbr&st=mzp9todf&raw=1">[Initial Draft]</a> (Single-authored version)</dd>
+</dl>
+
 ## _WORK IN PROGRESS_
 
 <dl>
@@ -37,12 +45,6 @@ title: About
       <p>I disentangle the asymmetric effects of Quantitative Easing (QE) and Quantitative Tightening (QT) using a Structural VAR that combines external instruments, regime-dependent heteroskedasticity, and a Maximum Forecast Error Variance (MFEV) criterion. High-frequency monetary policy surprises strongly predict the federal funds rate and QE flows but carry no information for QT flows, motivating a geometric separation that restricts the Rate and QE shocks to a policy-news subspace and identifies the QT shock from its orthogonal complement. The baseline QE news shock raises the price level and widens credit spreads but has limited pass-through to real output. Once I impose pseudo-zero restrictions to strip out forward guidance bundled at the effective lower bound, these nominal effects attenuate and the pure QE channel operates narrowly through term premium compression with no independent traction on output or inflation. QT, by contrast, exerts a persistent contractionary drag on industrial production that survives the same restriction, confirming that balance sheet runoff transmits through a reserve-drainage channel distinct from both rate policy and the QE news channel. Comparing the credit spread responses across shocks reveals that the liquidity constraint binds asymmetrically: reserve drainage tightens credit conditions substantially, while reserve injections do not loosen them. A stylized three-period model with bond market segmentation and a concave bank lending function rationalizes the asymmetry.</p>
     </details>
   </dd>
-</dl>
-
-<dl>
-  <dt>Blending Heteroskedasticity and Sign Restrictions: Restoring Rotation Invariance (tentative title)</dt>
-  <dd>with <em>Tao Zha (Emory University)</em></dd>
-  <dd><a href="https://www.dropbox.com/scl/fi/1b9pkmj9n5wzwrkps4tc7/SVAR_sign_hetero.pdf?rlkey=cbf9t4in2e2y1sji00fzcybbr&st=mzp9todf&raw=1">[Initial Draft]</a> (Single-authored version)</dd>
 </dl>
 
 <dl>
