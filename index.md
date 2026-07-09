@@ -32,7 +32,7 @@ title: About
 <dl>
   <dt>Sharpening Economic Interpretation with HARS</dt>
   <dd>with <em>Tao Zha (Emory University)</em></dd>
-  <dd><a href="https://www.dropbox.com/scl/fi/1b9pkmj9n5wzwrkps4tc7/SVAR_sign_hetero.pdf?rlkey=cbf9t4in2e2y1sji00fzcybbr&st=mzp9todf&raw=1">[Initial Draft]</a> (Single-authored version)</dd>
+  <dd><a href="https://www.dropbox.com/scl/fi/1b9pkmj9n5wzwrkps4tc7/SVAR_sign_hetero.pdf?rlkey=cbf9t4in2e2y1sji00fzcybbr&st=mzp9todf&raw=1">[Single-authored version]</a></dd>
 </dl>
 
 ## _WORK IN PROGRESS_
@@ -40,7 +40,8 @@ title: About
 <dl>
   <dt>News vs. Implementation: Disentangling the Asymmetric Effects of QE and QT</dt>
   <dd><a href="https://www.dropbox.com/scl/fi/j4mqvm9bai9zj3odgtogo/main_project.pdf?rlkey=j12lc8c87jql0tyjua7kfkpmx&st=rdtfc5v0&raw=1">[Preliminary Draft]</a></dd>
-  <dd class="presentation-note">Scheduled for presentation at the <em>2026 North American Summer Meeting</em> (Econometric Society), Atlanta, GA, June, 2026</dd>
+  <dd class="presentation-note">2026 North American Summer Meeting (Econometric Society)*</dd>
+  <dd class="presentation-note">2026 SEA (Southern Economic Association)*</dd>
   <dd class="abstract-toggle">
     <details>
       <summary>Abstract</summary>
