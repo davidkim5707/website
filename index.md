@@ -13,6 +13,11 @@ title: About
 {: #academic-appointments}
 
 <dl>
+  <dt>Visiting Scholar, Federal Reserve Bank of Atlanta, Research Department</dt>
+  <dd>August 2026</dd>
+</dl>
+
+<dl>
   <dt>Short-Term Consultant (Paid), IMF, IEO</dt>
   <dd>Fall 2024</dd>
   <dd>Follow-up work from IMF-FIP internship</dd>
