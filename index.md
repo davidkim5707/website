@@ -18,7 +18,7 @@ title: About
 </dl>
 
 <dl>
-  <dt>Short-Term Consultant (Paid), IMF, IEO</dt>
+  <dt>Short-Term Consultant, IMF, IEO</dt>
   <dd>Fall 2024</dd>
   <dd>Follow-up work from IMF-FIP internship</dd>
 </dl>
