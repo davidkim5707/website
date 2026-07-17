@@ -40,22 +40,27 @@ title: About
   <dt>Sharpening Economic Interpretation with HARS</dt>
   <dd>with <em><a href="http://www.tzha.net/" target="_blank">Tao Zha</a> (Emory University)</em></dd>
   <dd><a href="https://www.dropbox.com/scl/fi/1b9pkmj9n5wzwrkps4tc7/SVAR_sign_hetero.pdf?rlkey=cbf9t4in2e2y1sji00fzcybbr&st=mzp9todf&raw=1">[Single-authored version]</a></dd>
+  <dd class="abstract-toggle">
+    <details>
+      <summary>Abstract</summary>
+      <p>We develop a unified framework that combines shock volatility with sign and narrative restrictions and provides the theoretical foundation for the computationally efficient sampler HARS. HARS preserves the heteroskedastic likelihood and can be combined with any posterior simulator for the heteroskedastic model. In monetary policy, oil market, and fiscal policy models, the same restrictions deliver substantively different economics once shock heteroskedasticity is accounted for. Homoskedastic SVARs put uncertainty in the wrong place, pushing shock-scale variation into impulse-response uncertainty. Heteroskedasticity sharpens dynamic responses, alters economic conclusions, and restores 90% credible intervals as a practical standard for economic inference.</p>
+    </details>
+  </dd>
 </dl>
 
-## _WORK IN PROGRESS_
-
 <dl>
-  <dt>News vs. Implementation: Disentangling the Asymmetric Effects of QE and QT</dt>
-  <dd><a href="https://www.dropbox.com/scl/fi/j4mqvm9bai9zj3odgtogo/main_project.pdf?rlkey=j12lc8c87jql0tyjua7kfkpmx&st=rdtfc5v0&raw=1">[Preliminary Draft]</a></dd>
+  <dt>QT Is Not Simply Reverse QE: Inference Using HARS-Z</dt>
   <dd class="presentation-note">2026 North American Summer Meeting (Econometric Society)</dd>
   <dd class="presentation-note">2026 SEA (Southern Economic Association)*</dd>
   <dd class="abstract-toggle">
     <details>
       <summary>Abstract</summary>
-      <p>I disentangle the asymmetric effects of Quantitative Easing (QE) and Quantitative Tightening (QT) using a Structural VAR that combines external instruments, regime-dependent heteroskedasticity, and a Maximum Forecast Error Variance (MFEV) criterion. High-frequency monetary policy surprises strongly predict the federal funds rate and QE flows but carry no information for QT flows, motivating a geometric separation that restricts the Rate and QE shocks to a policy-news subspace and identifies the QT shock from its orthogonal complement. The baseline QE news shock raises the price level and widens credit spreads but has limited pass-through to real output. Once I impose pseudo-zero restrictions to strip out forward guidance bundled at the effective lower bound, these nominal effects attenuate and the pure QE channel operates narrowly through term premium compression with no independent traction on output or inflation. QT, by contrast, exerts a persistent contractionary drag on industrial production that survives the same restriction, confirming that balance sheet runoff transmits through a reserve-drainage channel distinct from both rate policy and the QE news channel. Comparing the credit spread responses across shocks reveals that the liquidity constraint binds asymmetrically: reserve drainage tightens credit conditions substantially, while reserve injections do not loosen them. A stylized three-period model with bond market segmentation and a concave bank lending function rationalizes the asymmetry.</p>
+      <p>I develop HARS-Z by extending HARS, the sampler of Kim and Zha (2026), to include zero restrictions alongside shock heteroskedasticity, sign restrictions, and narrative restrictions. Using HARS-Z, I estimate how the transmission of balance-sheet policy to real GDP and the price level depends on the liability that finances it. On monthly U.S. data I identify two balance-sheet shocks, one financed by reserves and one by overnight reverse repurchases (ON~RRP). The estimated transmission differs across the two financing channels. A reserve-financed expansion raises GDP and the GDP deflator, and an ON~RRP-financed contraction lowers them, but the magnitudes of the responses are asymmetric, especially for the deflator. Even under the same financing liability, local projections show no evidence that quantitative tightening (QT) is the reverse of quantitative easing (QE).</p>
     </details>
   </dd>
 </dl>
+
+## _WORK IN PROGRESS_
 
 <dl>
   <dt>From Underestimation to Overshooting? A Reappraisal of IMF Fiscal Multiplier Assumptions Across Crises</dt>
