@@ -39,7 +39,6 @@ title: About
 <dl>
   <dt>Sharpening Economic Interpretation with HARS</dt>
   <dd>with <em><a href="http://www.tzha.net/" target="_blank">Tao Zha</a> (Emory University)</em></dd>
-  <dd><a href="https://www.dropbox.com/scl/fi/1b9pkmj9n5wzwrkps4tc7/SVAR_sign_hetero.pdf?rlkey=cbf9t4in2e2y1sji00fzcybbr&st=mzp9todf&raw=1">[Single-authored version]</a></dd>
   <dd class="abstract-toggle">
     <details>
       <summary>Abstract</summary>
