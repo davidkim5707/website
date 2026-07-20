@@ -425,8 +425,16 @@ dt a {
     text-decoration: none;
 }
 
+/* Title links can wrap to multiple lines; the animated ::after underline only
+   renders under the last line, so use text-decoration which underlines every line. */
+dt a::after {
+    display: none;
+}
+
 dt a:hover {
     color: var(--color-accent);
+    text-decoration: underline;
+    text-underline-offset: 2px;
 }
 
 dd {
