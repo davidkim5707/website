@@ -37,8 +37,9 @@ title: About
 ## _WORKING PAPERS_
 
 <dl>
-  <dt>Sharpening Economic Interpretation with HARS</dt>
+  <dt><a href="https://www.nber.org/system/files/working_papers/w35483/w35483.pdf">Sharpening Economic Interpretation with HARS</a></dt>
   <dd>with <em><a href="http://www.tzha.net/" target="_blank">Tao Zha</a> (Emory University)</em></dd>
+  <dd><a href="https://www.nber.org/papers/w35483">[NBER Working Paper w35483]</a></dd>
   <dd class="abstract-toggle">
     <details>
       <summary>Abstract</summary>
