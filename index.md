@@ -49,13 +49,13 @@ title: About
 </dl>
 
 <dl>
-  <dt>QT Is Not Simply Reverse QE: Inference Using HARS-Z</dt>
+  <dt>How the Financing Liability Shapes the Effects of Balance-Sheet Policy</dt>
   <dd class="presentation-note">2026 North American Summer Meeting (Econometric Society)</dd>
   <dd class="presentation-note">2026 SEA (Southern Economic Association)*</dd>
   <dd class="abstract-toggle">
     <details>
       <summary>Abstract</summary>
-      <p>Does quantitative tightening (QT) undo quantitative easing (QE)? This paper asks whether the transmission of Federal Reserve balance-sheet policy to real GDP and the price level depends on the liability that finances it. To answer, I develop HARS-Z by extending HARS, the sampler of Kim and Zha (2026), to include zero restrictions alongside shock heteroskedasticity, sign restrictions, and narrative restrictions. On monthly U.S. data I identify two balance-sheet shocks, one financed by reserves and one by overnight reverse repurchases (ON RRP). The estimated transmission differs across the two financing channels. A reserve-financed expansion raises GDP and the GDP deflator, and an ON RRP-financed contraction lowers them, but the magnitudes of the responses are asymmetric, especially for the deflator. Even under the same financing liability, local projections show no evidence that QT is the reverse of QE.</p>
+      <p>I ask whether Federal Reserve balance-sheet policy has the same effect on real GDP and the price level when different liabilities finance it. To answer, I develop HARS-Z by extending HARS, the sampler of Kim and Zha (2026), to include zero restrictions alongside shock heteroskedasticity, sign restrictions, and narrative restrictions. On monthly U.S. data I identify two balance-sheet shocks, one financed by reserves and one by overnight reverse repurchases (ON RRP). The estimated transmission differs across the two financing channels in the variable that responds. At the 90% level the reserve-financed contraction lowers GDP without a deflator decline, and the ON RRP-financed contraction lowers the GDP deflator without a GDP decline. Local projections on the identified shocks reach the first links of the money channel. The reserve-financed contraction lowers total bank deposits and raises the funds spread over interest on reserves. The ON RRP-financed contraction moves neither.</p>
     </details>
   </dd>
 </dl>
