@@ -50,9 +50,8 @@ title: About
 
 <dl>
   <dt>How the Financing of Balance-Sheet Policy Shapes Its Effects</dt>
-  <dd class="presentation-note">2026 North American Summer Meeting (Econometric Society)</dd>
-  <dd class="presentation-note">2026 SEA (Southern Economic Association)*</dd>
   <dd><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7214338">[SSRN]</a> &middot; <a href="https://www.dropbox.com/scl/fi/w2dak1iipdy4sewxy6xnw/jmp_dawis.pdf?rlkey=hubsqx7d18fwqsx0a7iknbm7a&raw=1">[PDF]</a></dd>
+  <dd class="presentation-note">2026 North American Summer Meeting (Econometric Society); 2026 SEA (Southern Economic Association)*</dd>
   <dd class="abstract-toggle">
     <details>
       <summary>Abstract</summary>
