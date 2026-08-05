@@ -28,10 +28,10 @@ I am a PhD candidate in Economics at the University of Virginia. I study the mac
   <dd>Contributed to fiscal policy evaluation and forecast error analysis</dd>
 </dl>
 
-# RESEARCH
-{: #research}
-
-<p style="font-size: 0.9em; color: #666; margin-top: 0; margin-bottom: 1em;">* indicates scheduled presentation</p>
+<h1 id="research" style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 0.5rem 1rem;">
+  <span>RESEARCH</span>
+  <span style="font-size: 0.8rem; font-weight: 400; font-family: var(--font-sans); color: #666; letter-spacing: 0; text-transform: none;">* indicates scheduled presentation</span>
+</h1>
 
 ## _WORKING PAPERS_
 
