@@ -369,8 +369,8 @@ li {
    Research Publications - Card Design
    =========================== */
 dl {
-    margin-bottom: var(--space-xl);
-    padding: var(--space-lg);
+    margin-bottom: var(--space-lg);
+    padding: var(--space-md) var(--space-lg);
     background-color: var(--color-bg-secondary);
     border-radius: var(--radius-md);
     border: 1px solid var(--color-border);
@@ -415,8 +415,8 @@ dt {
     font-family: var(--font-serif);
     font-weight: 600;
     font-size: 1.05rem;
-    line-height: 1.5;
-    margin-bottom: var(--space-md);
+    line-height: 1.35;
+    margin-bottom: var(--space-sm);
     color: var(--color-text-primary);
 }
 
@@ -439,10 +439,10 @@ dt a:hover {
 
 dd {
     margin-left: 0;
-    margin-bottom: var(--space-md);
+    margin-bottom: var(--space-sm);
     color: var(--color-text-secondary);
     font-size: 0.875rem;
-    line-height: 1.6;
+    line-height: 1.45;
 }
 
 dd:last-child {
@@ -461,12 +461,12 @@ dd.presentation-note {
 
 /* Abstract Toggle */
 dd.abstract-toggle {
-    margin-top: var(--space-lg);
+    margin-top: var(--space-md);
 }
 
 dd.abstract-toggle details {
     border-top: 1px solid var(--color-border);
-    padding-top: var(--space-md);
+    padding-top: var(--space-sm);
 }
 
 dd.abstract-toggle details summary {
@@ -504,9 +504,9 @@ dd.abstract-toggle details[open] summary::before {
 dd.abstract-toggle details p {
     font-size: 0.9375rem;
     color: var(--color-text-secondary);
-    line-height: 1.8;
-    margin-top: var(--space-lg);
-    padding: var(--space-lg);
+    line-height: 1.6;
+    margin-top: var(--space-md);
+    padding: var(--space-md);
     background-color: var(--color-bg-primary);
     border-radius: var(--radius-md);
     border: 1px solid var(--color-border);
