@@ -314,6 +314,11 @@ p {
     color: var(--color-text-primary);
 }
 
+/* About intro paragraph — serif to match section/paper titles */
+p.about-intro {
+    font-family: var(--font-serif);
+}
+
 strong {
     font-weight: 600;
     color: var(--color-text-primary);

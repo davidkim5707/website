@@ -7,6 +7,7 @@ title: About
 {: #about}
 
 I am a PhD candidate in Economics at the University of Virginia. I study the macroeconomic effects of monetary and fiscal policy. My work develops structural VAR methods that combine heteroskedasticity with sign, zero, and narrative restrictions. I am on the 2026–2027 job market. You can find my CV [here](https://www.dropbox.com/scl/fi/c4uq7ef84mt263tydrm8i/Dawis_Kim_CV.pdf?rlkey=i1wwnm8q14e2rxq02g4kyxkgn&st=96sv37r7&raw=1).
+{: .about-intro}
 
 # ACADEMIC APPOINTMENTS
 {: #academic-appointments}
