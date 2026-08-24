@@ -31,7 +31,7 @@ I am a PhD candidate in Economics at the University of Virginia. I study the mac
 
 <h1 id="research" style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 0.5rem 1rem;">
   <span>RESEARCH</span>
-  <span style="font-size: 0.8rem; font-weight: 400; font-family: var(--font-sans); color: #666; letter-spacing: 0; text-transform: none;">* indicates scheduled presentation</span>
+  <span style="font-size: 0.8rem; font-weight: 400; font-family: var(--font-sans); color: #666; letter-spacing: 0; text-transform: none;">* scheduled presentation &middot; &dagger; accepted, declined</span>
 </h1>
 
 ## _WORKING PAPERS_
@@ -51,7 +51,7 @@ I am a PhD candidate in Economics at the University of Virginia. I study the mac
 <dl>
   <dt>How the Financing of Balance-Sheet Policy Shapes Its Effects</dt>
   <dd><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7214338">[SSRN]</a> &middot; <a href="https://www.dropbox.com/scl/fi/w2dak1iipdy4sewxy6xnw/jmp_dawis.pdf?rlkey=hubsqx7d18fwqsx0a7iknbm7a&raw=1">[PDF]</a></dd>
-  <dd class="presentation-note">2026 North American Summer Meeting (Econometric Society); 2026 SEA (Southern Economic Association)*</dd>
+  <dd class="presentation-note">2026 North American Summer Meeting (Econometric Society); 2026 UVA–Richmond Fed–Duke Jamboree*; Tenth SNDE Continuing Education in Macroeconometrics Workshop, Reserve Bank of Australia (Sydney)&dagger;; 2026 SEA (Southern Economic Association)*</dd>
   <dd class="abstract-toggle">
     <details>
       <summary>Abstract</summary>
