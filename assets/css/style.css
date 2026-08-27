@@ -463,6 +463,15 @@ dd.presentation-note {
     margin-top: var(--space-md);
 }
 
+/* Tighten the gap when the Abstract and Presentations toggles stack */
+dd.abstract-toggle:has(+ dd.presentation-note) {
+    margin-bottom: 0;
+}
+
+dd.abstract-toggle + dd.presentation-note {
+    margin-top: var(--space-xs);
+}
+
 /* Header matches the Abstract toggle so both sit on the same vertical rail */
 summary.presentation-label {
     cursor: pointer;
