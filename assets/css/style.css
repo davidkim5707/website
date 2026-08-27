@@ -463,22 +463,23 @@ dd.presentation-note {
     margin-top: var(--space-md);
 }
 
+/* Header matches the Abstract toggle so both sit on the same vertical rail */
 summary.presentation-label {
     cursor: pointer;
+    font-size: 0.875rem;
+    color: var(--color-accent);
+    font-weight: 600;
     list-style: none;
-    display: flex;
+    display: inline-flex;
     align-items: center;
     gap: var(--space-sm);
-    font-family: var(--font-sans);
-    font-size: 0.7rem;
-    font-weight: 600;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    color: var(--color-text-tertiary);
-    padding-bottom: var(--space-xs);
-    border-bottom: 1px solid var(--color-border);
-    margin-bottom: var(--space-sm);
-    transition: color var(--transition-fast);
+    padding: var(--space-sm) var(--space-md);
+    border-radius: var(--radius-md);
+    transition: all var(--transition-fast);
+}
+
+summary.presentation-label:hover {
+    background-color: var(--color-accent-light);
 }
 
 summary.presentation-label::-webkit-details-marker {
@@ -487,31 +488,22 @@ summary.presentation-label::-webkit-details-marker {
 
 summary.presentation-label::before {
     content: "\25B8";
-    font-size: 0.7rem;
-    line-height: 1;
-    color: var(--color-accent);
+    font-size: 0.75rem;
     transition: transform var(--transition-base);
-}
-
-summary.presentation-label:hover {
-    color: var(--color-accent);
 }
 
 dd.presentation-note details[open] summary.presentation-label::before {
     transform: rotate(90deg);
 }
 
-dd.presentation-note details:not([open]) summary.presentation-label {
-    margin-bottom: 0;
-    border-bottom-color: transparent;
-}
-
+/* List is indented one step past the header and set smaller */
 ul.presentation-list {
     list-style: none;
-    margin: 0;
-    padding: 0;
-    font-size: 0.85rem;
+    margin: var(--space-sm) 0 0;
+    padding: var(--space-sm) 0 0 2.5rem;
+    font-size: 0.8rem;
     line-height: 1.5;
+    border-top: 1px solid var(--color-border);
 }
 
 ul.presentation-list li {
@@ -532,7 +524,7 @@ ul.presentation-list li:last-child {
 
 .pres-date {
     flex: 0 0 auto;
-    font-size: 0.78rem;
+    font-size: 0.75rem;
     color: var(--color-text-tertiary);
     font-variant-numeric: tabular-nums;
     white-space: nowrap;
@@ -545,6 +537,10 @@ ul.presentation-list li:last-child {
 }
 
 @media (max-width: 480px) {
+    ul.presentation-list {
+        padding-left: var(--space-md);
+    }
+
     ul.presentation-list li {
         flex-direction: column;
         gap: 0.1rem;
