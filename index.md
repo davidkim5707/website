@@ -51,6 +51,12 @@ I am a PhD candidate in Economics at the University of Virginia. I study the mac
 <dl>
   <dt>How the Financing of Balance-Sheet Policy Shapes Its Effects</dt>
   <dd><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7214338">[SSRN]</a> &middot; <a href="https://www.dropbox.com/scl/fi/w2dak1iipdy4sewxy6xnw/jmp_dawis.pdf?rlkey=hubsqx7d18fwqsx0a7iknbm7a&raw=1">[PDF]</a></dd>
+  <dd class="abstract-toggle">
+    <details>
+      <summary>Abstract</summary>
+      <p>I ask whether the financing of Federal Reserve balance-sheet policy shapes its effects on real GDP and the price level. In a monthly U.S. SVAR I identify two balance-sheet shocks, one financed by reserves and one by overnight reverse repurchases (ON RRP). Identification combines sign, zero, and narrative restrictions with shifts in the volatility of the structural errors, and imposing the zero restrictions requires a new sampler that I develop. The estimates support that both contractions lower the price level and that only the reserve-financed contraction lowers GDP. Over the two easings and the first tightening the reserve-financed shock is the most important driver of the unexpected change in GDP among the labeled shocks. Over the 2023 to 2025 drain the ON RRP-financed shock is the most important driver of the unexpected price-level change.</p>
+    </details>
+  </dd>
   <dd class="presentation-note">
     <details open>
       <summary class="presentation-label">Presentations</summary>
@@ -61,12 +67,6 @@ I am a PhD candidate in Economics at the University of Virginia. I study the mac
         <li><span class="pres-venue">Tenth SNDE Continuing Education in Macroeconometrics Workshop, Reserve Bank of Australia (Sydney)<span class="pres-mark">&dagger;</span></span><span class="pres-date">Nov 2026</span></li>
         <li><span class="pres-venue">Southern Economic Association Annual Meeting<span class="pres-mark">*</span></span><span class="pres-date">2026</span></li>
       </ul>
-    </details>
-  </dd>
-  <dd class="abstract-toggle">
-    <details>
-      <summary>Abstract</summary>
-      <p>I ask whether the financing of Federal Reserve balance-sheet policy shapes its effects on real GDP and the price level. In a monthly U.S. SVAR I identify two balance-sheet shocks, one financed by reserves and one by overnight reverse repurchases (ON RRP). Identification combines sign, zero, and narrative restrictions with shifts in the volatility of the structural errors, and imposing the zero restrictions requires a new sampler that I develop. The estimates support that both contractions lower the price level and that only the reserve-financed contraction lowers GDP. Over the two easings and the first tightening the reserve-financed shock is the most important driver of the unexpected change in GDP among the labeled shocks. Over the 2023 to 2025 drain the ON RRP-financed shock is the most important driver of the unexpected price-level change.</p>
     </details>
   </dd>
 </dl>
