@@ -6,7 +6,7 @@ title: About
 # ABOUT
 {: #about}
 
-I am a PhD candidate in Economics at the University of Virginia. I study the macroeconomic effects of monetary and fiscal policy. My work develops structural VAR methods that combine heteroskedasticity with sign, zero, and narrative restrictions. I am on the 2026–2027 job market. You can find my CV [here](https://www.dropbox.com/scl/fi/c4uq7ef84mt263tydrm8i/Dawis_Kim_CV.pdf?rlkey=i1wwnm8q14e2rxq02g4kyxkgn&st=96sv37r7&raw=1).
+I am a PhD candidate in Economics at the University of Virginia. I study the macroeconomic effects of monetary and fiscal policy. My work develops structural VAR methods that combine heteroskedasticity with sign, zero, and narrative restrictions. I write the samplers behind these methods myself and make the code available below. I am on the 2026–2027 job market. You can find my CV [here](https://www.dropbox.com/scl/fi/c4uq7ef84mt263tydrm8i/Dawis_Kim_CV.pdf?rlkey=i1wwnm8q14e2rxq02g4kyxkgn&st=96sv37r7&raw=1).
 {: .about-intro}
 
 # ACADEMIC APPOINTMENTS
@@ -50,7 +50,7 @@ I am a PhD candidate in Economics at the University of Virginia. I study the mac
 
 <dl>
   <dt>How the Financing of Balance-Sheet Policy Shapes Its Effects</dt>
-  <dd><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7214338">[SSRN]</a> &middot; <a href="https://www.dropbox.com/scl/fi/w2dak1iipdy4sewxy6xnw/jmp_dawis.pdf?rlkey=hubsqx7d18fwqsx0a7iknbm7a&raw=1">[PDF]</a></dd>
+  <dd><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7214338">[SSRN]</a> &middot; <a href="https://www.dropbox.com/scl/fi/w2dak1iipdy4sewxy6xnw/jmp_dawis.pdf?rlkey=hubsqx7d18fwqsx0a7iknbm7a&raw=1">[PDF]</a> &middot; <span class="code-note">HARS-Z sampler (sign + zero + narrative + heteroskedasticity); replication codes available upon request</span></dd>
   <dd class="abstract-toggle">
     <details>
       <summary>Abstract</summary>
