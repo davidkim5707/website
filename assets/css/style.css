@@ -314,9 +314,15 @@ p {
     color: var(--color-text-primary);
 }
 
-/* About intro paragraph — serif to match section/paper titles */
+/* About intro paragraphs — serif to match section/paper titles, tighter
+   spacing between them so the three read as one block */
 p.about-intro {
     font-family: var(--font-serif);
+    margin-bottom: var(--space-md);
+}
+
+p.about-intro:last-of-type {
+    margin-bottom: var(--space-lg);
 }
 
 strong {
