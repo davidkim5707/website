@@ -50,7 +50,8 @@ I am a PhD candidate in Economics at the University of Virginia. I study the mac
 
 <dl>
   <dt>How the Financing of Balance-Sheet Policy Shapes Its Effects</dt>
-  <dd><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7214338">[SSRN]</a> &middot; <a href="https://www.dropbox.com/scl/fi/w2dak1iipdy4sewxy6xnw/jmp_dawis.pdf?rlkey=hubsqx7d18fwqsx0a7iknbm7a&raw=1">[PDF]</a> &middot; <span class="code-note">HARS-Z sampler (sign + zero + narrative + heteroskedasticity); replication codes available upon request</span></dd>
+  <dd><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7214338">[SSRN]</a> &middot; <a href="https://www.dropbox.com/scl/fi/w2dak1iipdy4sewxy6xnw/jmp_dawis.pdf?rlkey=hubsqx7d18fwqsx0a7iknbm7a&raw=1">[PDF]</a></dd>
+  <dd class="code-note">HARS-Z sampler (sign + zero + narrative + heteroskedasticity) &middot; replication codes available upon request</dd>
   <dd class="abstract-toggle">
     <details>
       <summary>Abstract</summary>

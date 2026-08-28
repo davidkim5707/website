@@ -455,10 +455,11 @@ dd:last-child {
 }
 
 /* Inline note for code availability - muted so it reads as a note, not a link */
-span.code-note {
-    color: var(--color-text-tertiary, var(--color-text-secondary));
+dd.code-note {
+    color: var(--color-text-tertiary);
     font-size: 0.8rem;
     font-style: italic;
+    margin-top: calc(-1 * var(--space-xs));
 }
 
 /* Status Badges - removed for professional appearance */
