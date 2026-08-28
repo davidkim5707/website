@@ -6,7 +6,7 @@ title: About
 # ABOUT
 {: #about}
 
-I am a PhD candidate in Economics at the University of Virginia. I study the macroeconomic effects of monetary and fiscal policy.
+I am a PhD candidate in Economics at the University of Virginia. My fields are macroeconomics and macroeconometrics, and I study the effects of monetary and fiscal policy.
 {: .about-intro}
 
 To answer these questions credibly, my work develops structural VAR methods that combine heteroskedasticity with sign, zero, and narrative restrictions. I write the samplers behind these methods myself and make the code available below.
