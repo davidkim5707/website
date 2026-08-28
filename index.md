@@ -68,11 +68,11 @@ I am on the 2026–2027 job market. You can find my CV [here](https://www.dropbo
     <details open>
       <summary class="presentation-label">Presentations</summary>
       <ul class="presentation-list">
-        <li><span class="pres-venue">North American Summer Meeting, Econometric Society</span><span class="pres-date">2026</span></li>
+        <li><span class="pres-venue">North American Summer Meeting, Econometric Society</span><span class="pres-date">Jun 2026</span></li>
         <li><span class="pres-venue">Federal Reserve Bank of Atlanta</span><span class="pres-date">Aug 2026</span></li>
         <li><span class="pres-venue">UVA&ndash;Richmond Fed&ndash;Duke Jamboree<span class="pres-mark">*</span></span><span class="pres-date">Oct 2026</span></li>
         <li><span class="pres-venue">Tenth SNDE Continuing Education in Macroeconometrics Workshop, Reserve Bank of Australia (Sydney)<span class="pres-mark">&dagger;</span></span><span class="pres-date">Nov 2026</span></li>
-        <li><span class="pres-venue">Southern Economic Association Annual Meeting<span class="pres-mark">*</span></span><span class="pres-date">2026</span></li>
+        <li><span class="pres-venue">Southern Economic Association Annual Meeting<span class="pres-mark">*</span></span><span class="pres-date">Nov 2026</span></li>
       </ul>
     </details>
   </dd>
