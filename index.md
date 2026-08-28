@@ -43,7 +43,7 @@ I am on the 2026–2027 job market. You can find my CV [here](https://www.dropbo
 ## _WORKING PAPERS_
 
 <dl>
-  <dt><a href="https://www.nber.org/system/files/working_papers/w35483/w35483.pdf">Sharpening Economic Interpretation with HARS</a></dt>
+  <dt><a href="https://www.nber.org/system/files/working_papers/w35483/w35483.pdf">Sharpening Economic Interpretation with HARS</a> <span class="paper-status">(submitted)</span></dt>
   <dd>with <em><a href="http://www.tzha.net/" target="_blank">Tao Zha</a> (Emory University)</em></dd>
   <dd><a href="https://www.nber.org/papers/w35483">[NBER Working Paper w35483]</a> &middot; <a href="https://www.dropbox.com/scl/fo/i2fxistcz7r6slpc58j54/ALYBgJbM-d0D_x5k8_MiIHc?rlkey=uzhibvhrvz41keckbjjmx45bg&st=yfmw6879&dl=0">[Replication Codes]</a></dd>
   <dd class="abstract-toggle">

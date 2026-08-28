@@ -431,6 +431,16 @@ dt {
     color: var(--color-text-primary);
 }
 
+/* Submission status sits beside the title without competing with it */
+span.paper-status {
+    font-family: var(--font-sans);
+    font-size: 0.8rem;
+    font-weight: 400;
+    font-style: italic;
+    color: var(--color-text-tertiary);
+    white-space: nowrap;
+}
+
 dt a {
     color: var(--color-text-primary);
     text-decoration: none;
