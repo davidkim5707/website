@@ -8,8 +8,8 @@
    =========================== */
 :root {
     /* Typography */
-    --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-    --font-serif: 'Source Serif Pro', Georgia, serif;
+    --font-sans: 'Times New Roman', Times, 'Tinos', 'Liberation Serif', serif;
+    --font-serif: 'Times New Roman', Times, 'Tinos', 'Liberation Serif', serif;
 
     /* Colors - Neutral Palette */
     --color-text-primary: #1a1a1a;
@@ -471,11 +471,10 @@ dd:last-child {
 }
 
 /* Inline note for code availability - muted so it reads as a note, not a link */
-dd.code-note {
+span.code-note {
     color: var(--color-text-tertiary);
     font-size: 0.8rem;
     font-style: italic;
-    margin-top: calc(-1 * var(--space-xs));
 }
 
 /* Status Badges - removed for professional appearance */

@@ -44,8 +44,7 @@ I am on the 2026–2027 job market. You can find my CV [here](https://www.dropbo
 
 <dl>
   <dt>How the Financing of Balance-Sheet Policy Shapes Its Effects <span class="paper-status">(Job Market Paper)</span></dt>
-  <dd><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7214338">[SSRN]</a> &middot; <a href="https://www.dropbox.com/scl/fi/w2dak1iipdy4sewxy6xnw/jmp_dawis.pdf?rlkey=hubsqx7d18fwqsx0a7iknbm7a&raw=1">[PDF]</a></dd>
-  <dd class="code-note">HARS-Z sampler (sign + zero + narrative + heteroskedasticity) &middot; codes on request</dd>
+  <dd><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7214338">[SSRN]</a> &middot; <a href="https://www.dropbox.com/scl/fi/w2dak1iipdy4sewxy6xnw/jmp_dawis.pdf?rlkey=hubsqx7d18fwqsx0a7iknbm7a&raw=1">[PDF]</a> &middot; <span class="code-note">HARS-Z sampler (sign + zero + narrative + heteroskedasticity) &middot; codes on request</span></dd>
   <dd class="abstract-toggle">
     <details>
       <summary>Abstract</summary>
