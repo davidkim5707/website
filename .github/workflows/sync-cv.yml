@@ -1,4 +1,4 @@
-name: Sync CV from Dropbox
+name: Sync PDFs from Dropbox
 
 on:
   schedule:
@@ -15,27 +15,35 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Download the CV from Dropbox
+      - name: Download the PDFs from Dropbox
         run: |
-          curl -fsSL -o cv_new.pdf \
-            "https://www.dropbox.com/scl/fi/c4uq7ef84mt263tydrm8i/Dawis_Kim_CV.pdf?rlkey=i1wwnm8q14e2rxq02g4kyxkgn&st=96sv37r7&raw=1"
-          if [ "$(head -c 4 cv_new.pdf)" != "%PDF" ]; then
-            echo "Dropbox did not return a PDF"; exit 1
-          fi
+          fetch() {
+            curl -fsSL -o "$1.new" "$2"
+            if [ "$(head -c 4 "$1.new")" != "%PDF" ]; then
+              echo "Dropbox did not return a PDF for $1"; exit 1
+            fi
+          }
+          fetch Dawis_Kim_CV.pdf "https://www.dropbox.com/scl/fi/c4uq7ef84mt263tydrm8i/Dawis_Kim_CV.pdf?rlkey=i1wwnm8q14e2rxq02g4kyxkgn&st=96sv37r7&raw=1"
+          fetch jmp_dawis.pdf "https://www.dropbox.com/scl/fi/w2dak1iipdy4sewxy6xnw/jmp_dawis.pdf?rlkey=hubsqx7d18fwqsx0a7iknbm7a&raw=1"
 
-      - name: Commit if the PDF changed
+      - name: Commit the PDFs that changed
         id: commit
         run: |
-          if cmp -s cv_new.pdf Dawis_Kim_CV.pdf; then
-            echo "CV unchanged"; rm cv_new.pdf; echo "changed=false" >> "$GITHUB_OUTPUT"; exit 0
+          changed=false
+          for f in Dawis_Kim_CV.pdf jmp_dawis.pdf; do
+            if cmp -s "$f.new" "$f"; then
+              echo "$f unchanged"; rm "$f.new"
+            else
+              echo "$f changed"; mv "$f.new" "$f"; git add "$f"; changed=true
+            fi
+          done
+          echo "changed=$changed" >> "$GITHUB_OUTPUT"
+          if [ "$changed" = true ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -m "Sync PDFs from Dropbox"
+            git push
           fi
-          mv cv_new.pdf Dawis_Kim_CV.pdf
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add Dawis_Kim_CV.pdf
-          git commit -m "Sync CV from Dropbox"
-          git push
-          echo "changed=true" >> "$GITHUB_OUTPUT"
 
       - name: Rebuild GitHub Pages
         if: steps.commit.outputs.changed == 'true'
