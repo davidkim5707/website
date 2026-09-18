@@ -16,7 +16,7 @@ I am on the 2026–2027 job market. You can find my CV [here]({{ site.baseurl }}
 {: #academic-appointments}
 
 <dl>
-  <dt>Visiting Scholar (Ph.D. interns), Federal Reserve Bank of Atlanta, Research Department</dt>
+  <dt>Visiting Scholar (Ph.D. Intern), Federal Reserve Bank of Atlanta, Research Department</dt>
   <dd>August 2026</dd>
 </dl>
 
