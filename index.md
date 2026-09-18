@@ -6,7 +6,7 @@ title: About
 # ABOUT
 {: #about}
 
-I am a PhD candidate in Economics at the University of Virginia. My fields are macroeconomics and macroeconometrics, and I study the effects of monetary and fiscal policy. To answer these questions credibly, my work develops structural VAR methods that combine heteroskedasticity with sign, zero, and narrative restrictions.
+I am a PhD candidate in Economics at the University of Virginia. My fields are macroeconomics and macroeconometrics, and I study the effects of monetary and fiscal policy. To answer these questions credibly, my work develops structural VAR methods that combine heteroskedasticity with sign, zero, and narrative restrictions. The code is available on [GitHub](https://github.com/davidkim5707/svar-hetero-toolkit).
 {: .about-intro}
 
 I am on the 2026–2027 job market. You can find my CV [here]({{ site.baseurl }}/Dawis_Kim_CV.pdf).
@@ -41,7 +41,7 @@ I am on the 2026–2027 job market. You can find my CV [here]({{ site.baseurl }}
 
 <dl>
   <dt>How the Financing of Balance-Sheet Policy Shapes Its Effects <span class="paper-status">(Job Market Paper)</span></dt>
-  <dd><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7214338">[SSRN]</a> &middot; <a href="{{ site.baseurl }}/jmp_dawis.pdf">[PDF]</a> &middot; <span class="code-note">HARS-Z sampler (sign + zero + narrative + heteroskedasticity) &middot; codes on request</span></dd>
+  <dd><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7214338">[SSRN]</a> &middot; <a href="{{ site.baseurl }}/jmp_dawis.pdf">[PDF]</a> &middot; <span class="code-note">HARS-Z sampler (sign + zero + narrative + heteroskedasticity) &middot; <a href="https://github.com/davidkim5707/svar-hetero-toolkit">code on GitHub</a></span></dd>
   <dd class="abstract-toggle">
     <details>
       <summary>Abstract</summary>
@@ -65,7 +65,7 @@ I am on the 2026–2027 job market. You can find my CV [here]({{ site.baseurl }}
 <dl>
   <dt><a href="https://www.nber.org/system/files/working_papers/w35483/w35483.pdf">Sharpening Economic Interpretation with HARS</a> <span class="paper-status">(submitted)</span></dt>
   <dd>with <em><a href="http://www.tzha.net/" target="_blank">Tao Zha</a> (Emory University)</em></dd>
-  <dd><a href="https://www.nber.org/papers/w35483">[NBER Working Paper w35483]</a> &middot; <a href="https://www.dropbox.com/scl/fo/i2fxistcz7r6slpc58j54/ALYBgJbM-d0D_x5k8_MiIHc?rlkey=uzhibvhrvz41keckbjjmx45bg&st=yfmw6879&dl=0">[Replication Codes]</a></dd>
+  <dd><a href="https://www.nber.org/papers/w35483">[NBER Working Paper w35483]</a> &middot; <a href="https://github.com/davidkim5707/svar-hetero-toolkit/tree/main/replications/kim_zha2026_hars">[Replication Codes]</a></dd>
   <dd class="abstract-toggle">
     <details>
       <summary>Abstract</summary>
