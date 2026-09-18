@@ -8,6 +8,7 @@ on:
 permissions:
   contents: write
   pages: write
+  actions: read
 
 jobs:
   sync:
@@ -45,8 +46,16 @@ jobs:
             git push
           fi
 
-      - name: Rebuild GitHub Pages
-        if: steps.commit.outputs.changed == 'true'
+      # A push from this workflow already starts a Pages build, so no rebuild is
+      # requested after a commit. When nothing changed, retry the last deploy if
+      # it failed, so a transient Pages error heals within the hour.
+      - name: Retry the Pages deploy if the last one failed
+        if: steps.commit.outputs.changed == 'false'
         env:
           GH_TOKEN: ${{ github.token }}
-        run: gh api -X POST "repos/${{ github.repository }}/pages/builds"
+        run: |
+          last=$(gh run list --repo "$GITHUB_REPOSITORY" --workflow=pages-build-deployment --limit 1 --json conclusion --jq '.[0].conclusion')
+          echo "last Pages deploy: $last"
+          if [ "$last" = "failure" ]; then
+            gh api -X POST "repos/$GITHUB_REPOSITORY/pages/builds"
+          fi
