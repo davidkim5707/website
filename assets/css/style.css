@@ -622,14 +622,20 @@ dd.abstract-toggle details[open] summary::before {
 }
 
 dd.abstract-toggle details p {
+    font-family: var(--font-serif);
     font-size: 0.9375rem;
     color: var(--color-text-secondary);
-    line-height: 1.6;
+    line-height: 1.7;
     margin-top: var(--space-md);
-    padding: var(--space-md);
+    padding: var(--space-md) var(--space-lg);
     background-color: var(--color-bg-primary);
     border-radius: var(--radius-md);
     border: 1px solid var(--color-border);
+    text-align: justify;
+    text-justify: inter-word;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+    text-wrap: pretty;
 }
 
 /* ===========================

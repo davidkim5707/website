@@ -45,7 +45,7 @@ I am on the 2026–2027 job market. You can find my CV [here]({{ site.baseurl }}
   <dd class="abstract-toggle">
     <details>
       <summary>Abstract</summary>
-      <p>I ask whether the financing of Federal Reserve balance-sheet policy shapes its effects on real GDP and the price level. In a monthly U.S. SVAR I identify two balance-sheet shocks, one financed by reserves and one by overnight reverse repurchases (ON RRP). Both balance-sheet contractions lower the price level, and only the reserve-financed contraction lowers GDP. The reserve-financed contraction alone raises the excess bond premium. Over the quantitative easing after the financial crisis and the first quantitative tightening the reserve-financed shock is the largest contributor to both forecast errors. It pushes both variables above their forecasts over the easing and pulls them below over the tightening. During the ON RRP drain of the second quantitative tightening the ON RRP-financed shock is the largest contributor to the price-level forecast error. It pulls the price level below its forecast. Which liability finances a balance-sheet policy shapes what that policy does.</p>
+      <p>I ask whether the financing of Federal Reserve balance-sheet policy shapes its effects on output and the price level. In a monthly U.S. SVAR I identify two balance-sheet shocks, one financed by reserves and one by overnight reverse repurchases (ON RRP). Only reserve financing moves output and the price level. A reserve-financed contraction raises the risk premium in corporate bond spreads and lowers both. An ON RRP-financed contraction moves none of the three. The reserve-financed shock is the main source of the unexpected movements in output and the price level over the quantitative easing and tightening that reserves financed. Which liability finances a balance-sheet policy shapes what that policy does.</p>
     </details>
   </dd>
   <dd class="presentation-note">
@@ -55,7 +55,7 @@ I am on the 2026–2027 job market. You can find my CV [here]({{ site.baseurl }}
         <li><span class="pres-venue">North American Summer Meeting, Econometric Society</span><span class="pres-date">Jun 2026</span></li>
         <li><span class="pres-venue">Federal Reserve Bank of Atlanta</span><span class="pres-date">Aug 2026</span></li>
         <li><span class="pres-venue">UVA&ndash;Richmond Fed&ndash;Duke Jamboree<span class="pres-mark">*</span></span><span class="pres-date">Oct 2026</span></li>
-        <li><span class="pres-venue">Midwest Macroeconomics Meetings, Texas Tech University<span class="pres-mark">&dagger;</span></span><span class="pres-date">Nov 2026</span></li>
+        <li><span class="pres-venue">Midwest Macroeconomics Meetings, Texas Tech University<span class="pres-mark">*</span></span><span class="pres-date">Nov 2026</span></li>
         <li><span class="pres-venue">Tenth SNDE Continuing Education in Macroeconometrics Workshop, Reserve Bank of Australia (Sydney)<span class="pres-mark">&dagger;</span></span><span class="pres-date">Nov 2026</span></li>
         <li><span class="pres-venue">Southern Economic Association Annual Meeting<span class="pres-mark">*</span></span><span class="pres-date">Nov 2026</span></li>
       </ul>
