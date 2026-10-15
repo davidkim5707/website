@@ -6,7 +6,7 @@ title: About
 # ABOUT
 {: #about}
 
-I am a PhD candidate in Economics at the University of Virginia. My fields are macroeconomics and macroeconometrics, and I study the effects of monetary and fiscal policy. To answer these questions credibly, my work develops structural VAR methods that combine heteroskedasticity with sign, zero, and narrative restrictions. The code is available on [GitHub](https://github.com/davidkim5707/svar-hetero-toolkit).
+I am a PhD candidate in Economics at the University of Virginia. My fields are monetary policy, fiscal policy, time series econometrics, and macroeconomics. To estimate the effects of monetary and fiscal policy credibly, my work develops structural VAR methods that combine heteroskedasticity with sign, zero, and narrative restrictions. The code is available on [GitHub](https://github.com/davidkim5707/svar-hetero-toolkit).
 {: .about-intro}
 
 I am on the 2026–2027 job market. You can find my CV [here]({{ site.baseurl }}/Dawis_Kim_CV.pdf).
