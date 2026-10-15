@@ -37,7 +37,7 @@ I am on the 2026–2027 job market. You can find my CV [here]({{ site.baseurl }}
   <span style="font-size: 0.8rem; font-weight: 400; font-family: var(--font-sans); color: #666; letter-spacing: 0; text-transform: none;">* scheduled presentation &middot; &dagger; accepted, declined</span>
 </h1>
 
-## _WORKING PAPERS_
+## WORKING PAPERS
 
 <dl>
   <dt>How the Financing of Balance-Sheet Policy Shapes Its Effects <span class="paper-status">(Job Market Paper)</span></dt>
@@ -65,7 +65,7 @@ I am on the 2026–2027 job market. You can find my CV [here]({{ site.baseurl }}
 
 <dl>
   <dt><a href="https://www.nber.org/system/files/working_papers/w35483/w35483.pdf">Sharpening Economic Interpretation with HARS</a> <span class="paper-status">(submitted)</span></dt>
-  <dd>with <em><a href="http://www.tzha.net/" target="_blank">Tao Zha</a> (Emory University)</em></dd>
+  <dd>with <a href="http://www.tzha.net/" target="_blank">Tao Zha</a> (Emory University)</dd>
   <dd><a href="https://www.nber.org/papers/w35483">[NBER Working Paper w35483]</a> &middot; <a href="https://github.com/davidkim5707/svar-hetero-toolkit/tree/main/replications/kim_zha2026_hars">[Replication Codes]</a></dd>
   <dd class="abstract-toggle">
     <details>
@@ -75,19 +75,19 @@ I am on the 2026–2027 job market. You can find my CV [here]({{ site.baseurl }}
   </dd>
 </dl>
 
-## _WORK IN PROGRESS_
+## WORK IN PROGRESS
 
 <dl>
   <dt>From Underestimation to Overshooting? A Reappraisal of IMF Fiscal Multiplier Assumptions Across Crises</dt>
-  <dd>with <em>Jeremie Cohen-Setton (International Monetary Fund)</em></dd>
+  <dd>with Jeremie Cohen-Setton (International Monetary Fund)</dd>
 </dl>
 
-## _PUBLICATION_
+## PUBLICATION
 
 <dl>
   <dt><a href="https://www.tandfonline.com/doi/full/10.1080/1226508X.2021.1875868">The Macroeconomic Consequences of Stimulating Offline Consumption during COVID-19</a></dt>
   <dd>with <a href="https://sites.google.com/view/myungkyushim/home" target="_blank">Myunkyu Shim</a> (Yonsei University) and Minseung Kim</dd>
-  <dd><strong><em>Global Economic Review</em></strong>, March 2021</dd>
+  <dd><strong>Global Economic Review</strong>, March 2021</dd>
 </dl>
 
 # REPLICATION EXERCISES

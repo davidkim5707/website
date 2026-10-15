@@ -331,7 +331,7 @@ strong {
 }
 
 em {
-    font-style: italic;
+    font-style: normal;
 }
 
 /* ===========================
@@ -436,7 +436,7 @@ span.paper-status {
     font-family: var(--font-sans);
     font-size: 0.8rem;
     font-weight: 400;
-    font-style: italic;
+    font-style: normal;
     color: var(--color-text-tertiary);
     white-space: nowrap;
 }
@@ -474,7 +474,7 @@ dd:last-child {
 span.code-note {
     color: var(--color-text-tertiary);
     font-size: 0.8rem;
-    font-style: italic;
+    font-style: normal;
 }
 
 /* Status Badges - removed for professional appearance */
