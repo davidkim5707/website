@@ -78,6 +78,11 @@ I am on the 2026–2027 job market. You can find my CV [here]({{ site.baseurl }}
 ## WORK IN PROGRESS
 
 <dl>
+  <dt>Understanding Local Projections</dt>
+  <dd>with Xiaohong Chen (Yale University), Yanping Yi (Shanghai University of Finance and Economics), and <a href="http://www.tzha.net/" target="_blank">Tao Zha</a> (Emory University)</dd>
+</dl>
+
+<dl>
   <dt>From Underestimation to Overshooting? A Reappraisal of IMF Fiscal Multiplier Assumptions Across Crises</dt>
   <dd>with Jeremie Cohen-Setton (International Monetary Fund)</dd>
 </dl>
