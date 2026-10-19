@@ -79,7 +79,7 @@ I am on the 2026–2027 job market. You can find my CV [here]({{ site.baseurl }}
 
 <dl>
   <dt>Understanding Local Projections</dt>
-  <dd>with Xiaohong Chen (Yale University), Yanping Yi (Shanghai University of Finance and Economics), and <a href="http://www.tzha.net/" target="_blank">Tao Zha</a> (Emory University)</dd>
+  <dd>with <a href="https://economics.yale.edu/people/xiaohong-chen" target="_blank">Xiaohong Chen</a> (Yale University), <a href="https://yanpingyi.weebly.com/" target="_blank">Yanping Yi</a> (Zhejiang University), and <a href="http://www.tzha.net/" target="_blank">Tao Zha</a> (Emory University)</dd>
 </dl>
 
 <dl>
