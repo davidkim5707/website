@@ -551,7 +551,7 @@ dd.entry-links {
 
 .ln label::after {
     content: "▾";
-    font-size: 0.7em;
+    font-size: 0.85em;
     transition: transform var(--transition-base);
 }
 
@@ -820,10 +820,6 @@ hr {
     h3 {
         font-size: 1rem;
     }
-
-    dl {
-        padding: var(--space-lg);
-    }
 }
 
 /* Small mobile */
@@ -839,10 +835,6 @@ hr {
 
     h1 {
         font-size: 1.3rem;
-    }
-
-    dl {
-        padding: var(--space-md);
     }
 }
 
