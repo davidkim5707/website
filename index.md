@@ -37,42 +37,42 @@ I am on the 2026–2027 job market. You can find my CV [here]({{ site.baseurl }}
   <span style="font-size: 0.8rem; font-weight: 400; font-family: var(--font-sans); color: #666; letter-spacing: 0; text-transform: none;">* scheduled presentation &middot; &dagger; accepted, declined</span>
 </h1>
 
-## WORKING PAPERS
+## JOB MARKET PAPER
 
-<dl>
-  <dt>How the Financing of Balance-Sheet Policy Shapes Its Effects <span class="paper-status">(Job Market Paper)</span></dt>
-  <dd><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7214338">[SSRN]</a> &middot; <a href="{{ site.baseurl }}/jmp_dawis.pdf">[PDF]</a> &middot; <span class="code-note">HARS-Z sampler (sign + zero + narrative + heteroskedasticity) &middot; <a href="https://github.com/davidkim5707/svar-hetero-toolkit">code on GitHub</a></span></dd>
-  <dd class="abstract-toggle">
-    <details>
-      <summary>Abstract</summary>
-      <p>I ask whether the financing of Federal Reserve balance-sheet policy shapes its effects on output and the price level. In a monthly U.S. SVAR I identify two balance-sheet shocks, one financed by reserves and one by overnight reverse repurchases (ON RRP). Only reserve financing moves output and the price level. A reserve-financed contraction raises the risk premium in corporate bond spreads and lowers both. An ON RRP-financed contraction moves none of the three. The reserve-financed shock is the main source of the unexpected movements in output and the price level over the quantitative easing and tightening that reserves financed. Which liability finances a balance-sheet policy shapes what that policy does.</p>
-    </details>
+<dl class="entry">
+  <dt>How the Financing of Balance-Sheet Policy Shapes Its Effects</dt>
+  <dd class="entry-links">
+    <span class="ln"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7214338">SSRN</a></span>
+    <span class="ln"><a href="{{ site.baseurl }}/jmp_dawis.pdf">PDF</a> <span class="ln-note">(Oct &rsquo;26)</span></span>
+    <span class="ln"><a href="https://github.com/davidkim5707/svar-hetero-toolkit">Code</a> <span class="ln-note">(HARS-Z sampler)</span></span>
+    <span class="ln"><input type="checkbox" id="jmp-abstract" class="toggle-input t-abs"><label for="jmp-abstract">Abstract</label></span>
+    <span class="ln"><input type="checkbox" id="jmp-presentations" class="toggle-input t-pres"><label for="jmp-presentations">Presentations</label></span>
   </dd>
-  <dd class="presentation-note">
-    <details>
-      <summary class="presentation-label">Presentations</summary>
-      <ul class="presentation-list">
-        <li><span class="pres-venue">North American Summer Meeting, Econometric Society</span><span class="pres-date">Jun 2026</span></li>
-        <li><span class="pres-venue">Federal Reserve Bank of Atlanta</span><span class="pres-date">Aug 2026</span></li>
-        <li><span class="pres-venue">UVA&ndash;Richmond Fed&ndash;Duke Jamboree</span><span class="pres-date">Oct 2026</span></li>
-        <li><span class="pres-venue">Midwest Macroeconomics Meetings, Texas Tech University<span class="pres-mark">*</span></span><span class="pres-date">Nov 2026</span></li>
-        <li><span class="pres-venue">Tenth SNDE Continuing Education in Macroeconometrics Workshop, Reserve Bank of Australia (Sydney)<span class="pres-mark">&dagger;</span></span><span class="pres-date">Nov 2026</span></li>
-        <li><span class="pres-venue">Southern Economic Association Annual Meeting<span class="pres-mark">*</span></span><span class="pres-date">Nov 2026</span></li>
-      </ul>
-    </details>
+  <dd class="entry-panel panel-abs"><p>I ask whether the financing of Federal Reserve balance-sheet policy shapes its effects on output and the price level. In a monthly U.S. SVAR I identify two balance-sheet shocks, one financed by reserves and one by overnight reverse repurchases (ON RRP). Only reserve financing moves output and the price level. A reserve-financed contraction raises the risk premium in corporate bond spreads and lowers both. An ON RRP-financed contraction moves none of the three. The reserve-financed shock is the main source of the unexpected movements in output and the price level over the quantitative easing and tightening that reserves financed. Which liability finances a balance-sheet policy shapes what that policy does.</p></dd>
+  <dd class="entry-panel panel-pres">
+    <ul class="presentation-list">
+      <li><span class="pres-venue">North American Summer Meeting, Econometric Society</span><span class="pres-date">Jun 2026</span></li>
+      <li><span class="pres-venue">Federal Reserve Bank of Atlanta</span><span class="pres-date">Aug 2026</span></li>
+      <li><span class="pres-venue">UVA&ndash;Richmond Fed&ndash;Duke Jamboree</span><span class="pres-date">Oct 2026</span></li>
+      <li><span class="pres-venue">Midwest Macroeconomics Meetings, Texas Tech University<span class="pres-mark">*</span></span><span class="pres-date">Nov 2026</span></li>
+      <li><span class="pres-venue">Tenth SNDE Continuing Education in Macroeconometrics Workshop, Reserve Bank of Australia (Sydney)<span class="pres-mark">&dagger;</span></span><span class="pres-date">Nov 2026</span></li>
+      <li><span class="pres-venue">Southern Economic Association Annual Meeting<span class="pres-mark">*</span></span><span class="pres-date">Nov 2026</span></li>
+    </ul>
   </dd>
 </dl>
 
-<dl>
+## WORKING PAPERS
+
+<dl class="entry">
   <dt><a href="https://www.nber.org/system/files/working_papers/w35483/w35483.pdf">Sharpening Economic Interpretation with HARS</a> <span class="paper-status">(submitted)</span></dt>
   <dd>with <a href="http://www.tzha.net/" target="_blank">Tao Zha</a> (Emory University)</dd>
-  <dd><a href="https://www.nber.org/papers/w35483">[NBER Working Paper w35483]</a> &middot; <a href="https://github.com/davidkim5707/svar-hetero-toolkit/tree/main/replications/kim_zha2026_hars">[Replication Codes]</a></dd>
-  <dd class="abstract-toggle">
-    <details>
-      <summary>Abstract</summary>
-      <p>We develop a unified framework that combines shock volatility with sign and narrative restrictions and provides the theoretical foundation for the computationally efficient sampler HARS. HARS preserves the heteroskedastic likelihood and can be combined with any posterior simulator for the heteroskedastic model. In monetary policy, oil market, and fiscal policy models, the same restrictions deliver substantively different economics once shock heteroskedasticity is accounted for. Homoskedastic SVARs put uncertainty in the wrong place, pushing shock-scale variation into impulse-response uncertainty. Heteroskedasticity sharpens dynamic responses, alters economic conclusions, and restores 90% credible intervals as a practical standard for economic inference.</p>
-    </details>
+  <dd class="entry-links">
+    <span class="ln"><a href="https://www.nber.org/papers/w35483">NBER</a></span>
+    <span class="ln"><a href="https://www.nber.org/system/files/working_papers/w35483/w35483.pdf">PDF</a> <span class="ln-note">(Jul &rsquo;26)</span></span>
+    <span class="ln"><a href="https://github.com/davidkim5707/svar-hetero-toolkit/tree/main/replications/kim_zha2026_hars">Replication code</a></span>
+    <span class="ln"><input type="checkbox" id="hars-abstract" class="toggle-input t-abs"><label for="hars-abstract">Abstract</label></span>
   </dd>
+  <dd class="entry-panel panel-abs"><p>We develop a unified framework that combines shock volatility with sign and narrative restrictions and provides the theoretical foundation for the computationally efficient sampler HARS. HARS preserves the heteroskedastic likelihood and can be combined with any posterior simulator for the heteroskedastic model. In monetary policy, oil market, and fiscal policy models, the same restrictions deliver substantively different economics once shock heteroskedasticity is accounted for. Homoskedastic SVARs put uncertainty in the wrong place, pushing shock-scale variation into impulse-response uncertainty. Heteroskedasticity sharpens dynamic responses, alters economic conclusions, and restores 90% credible intervals as a practical standard for economic inference.</p></dd>
 </dl>
 
 ## WORK IN PROGRESS

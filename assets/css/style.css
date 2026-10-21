@@ -486,73 +486,122 @@ dd:last-child {
     margin-bottom: 0;
 }
 
-/* Inline note for code availability - muted so it reads as a note, not a link */
-span.code-note {
-    color: var(--color-text-tertiary);
-    font-size: 0.8rem;
-    font-style: normal;
-}
-
 /* Status Badges - removed for professional appearance */
 
-/* Presentation Note */
-dd.presentation-note {
-    font-size: 0.875rem;
-    color: var(--color-text-secondary);
-    margin-top: var(--space-md);
+/* Research entries: a title, optional coauthors, then one row of links.
+   Abstract and Presentations are toggles in that row; their text opens below it. */
+dd.entry-links {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.2rem 1rem;
+    margin-top: 0.45rem;
 }
 
-/* Tighten the gap when the Abstract and Presentations toggles stack */
-dd.abstract-toggle:has(+ dd.presentation-note) {
-    margin-bottom: 0;
+.ln {
+    display: inline-flex;
+    align-items: baseline;
+    gap: 0.35rem;
 }
 
-dd.abstract-toggle + dd.presentation-note {
-    margin-top: var(--space-xs);
+.ln-note {
+    color: var(--color-text-tertiary);
+    font-size: 0.85em;
 }
 
-/* Header matches the Abstract toggle so both sit on the same vertical rail */
-summary.presentation-label {
-    cursor: pointer;
-    font-size: 0.85rem;
-    color: #3b4252;
-    font-weight: 500;
-    list-style: none;
+@media (min-width: 481px) {
+    dd.entry-links {
+        column-gap: 0;
+    }
+
+    .ln:not(:last-child)::after {
+        content: "";
+        align-self: center;
+        width: 1px;
+        height: 0.9em;
+        background-color: var(--color-border);
+        margin: 0 0.8rem 0 0.45rem;
+    }
+}
+
+.toggle-input {
+    position: absolute;
+    opacity: 0;
+    width: 1px;
+    height: 1px;
+    margin: 0;
+    pointer-events: none;
+}
+
+.ln label {
     display: inline-flex;
     align-items: center;
-    gap: var(--space-sm);
-    padding: 0.15rem 0;
+    gap: 0.3rem;
+    cursor: pointer;
+    color: #232d4b;
+    text-decoration: underline;
+    text-decoration-color: rgba(35, 45, 75, 0.3);
+    text-underline-offset: 2px;
 }
 
-summary.presentation-label:hover {
+.ln label:hover {
     color: #000;
+    text-decoration-color: currentColor;
 }
 
-summary.presentation-label::-webkit-details-marker {
-    display: none;
-}
-
-summary.presentation-label::before {
-    content: "\25B8";
-    font-size: 0.75rem;
+.ln label::after {
+    content: "▾";
+    font-size: 0.7em;
     transition: transform var(--transition-base);
 }
 
-dd.presentation-note details[open] summary.presentation-label::before {
-    transform: rotate(90deg);
+.ln:has(input:checked) label::after {
+    transform: rotate(180deg);
 }
 
-/* List sits in a card that matches the Abstract box: date column on the
-   left, venue on the right, hairline dividers between rows */
+.toggle-input:focus-visible + label {
+    outline: 2px solid #232d4b;
+    outline-offset: 3px;
+    border-radius: 2px;
+}
+
+dd.entry-panel {
+    display: none;
+    margin: 0.7rem 0 0.4rem 0.2rem;
+    padding-left: 1.1rem;
+    border-left: 1px solid var(--color-border);
+}
+
+dl:has(input.t-abs:checked) dd.panel-abs,
+dl:has(input.t-pres:checked) dd.panel-pres {
+    display: block;
+}
+
+dd.entry-panel + dd.entry-panel {
+    margin-top: 0.9rem;
+}
+
+dd.panel-abs p {
+    font-family: var(--font-serif);
+    font-size: 0.9375rem;
+    color: var(--color-text-secondary);
+    line-height: 1.7;
+    margin: 0;
+    text-align: justify;
+    text-justify: inter-word;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+    text-wrap: pretty;
+}
+
 ul.presentation-list {
     list-style: none;
-    margin: 0.5rem 0 0.6rem 0.2rem;
-    padding: 0.1rem 0 0.1rem 1.1rem;
+    margin: 0;
+    padding: 0;
     font-family: var(--font-serif);
     font-size: 0.9rem;
     line-height: 1.5;
     color: var(--color-text-secondary);
-    border-left: 1px solid var(--color-border);
 }
 
 ul.presentation-list li {
@@ -590,73 +639,15 @@ ul.presentation-list li {
 }
 
 @media (max-width: 480px) {
-    ul.presentation-list {
-        padding-left: var(--space-md);
-    }
-
     ul.presentation-list li {
         grid-template-columns: 1fr;
         row-gap: 0.1rem;
     }
 
     /* Justified text opens wide gaps on a narrow screen */
-    dd.abstract-toggle details p {
+    dd.panel-abs p {
         text-align: left;
     }
-}
-
-/* Abstract Toggle */
-dd.abstract-toggle {
-    margin-top: 0.45rem;
-}
-
-dd.abstract-toggle details {
-    padding-top: 0;
-}
-
-dd.abstract-toggle details summary {
-    cursor: pointer;
-    font-size: 0.85rem;
-    color: #3b4252;
-    font-weight: 500;
-    list-style: none;
-    display: inline-flex;
-    align-items: center;
-    gap: var(--space-sm);
-    padding: 0.15rem 0;
-}
-
-dd.abstract-toggle details summary:hover {
-    color: #000;
-}
-
-dd.abstract-toggle details summary::-webkit-details-marker {
-    display: none;
-}
-
-dd.abstract-toggle details summary::before {
-    content: "▸";
-    font-size: 0.75rem;
-    transition: transform var(--transition-base);
-}
-
-dd.abstract-toggle details[open] summary::before {
-    transform: rotate(90deg);
-}
-
-dd.abstract-toggle details p {
-    font-family: var(--font-serif);
-    font-size: 0.9375rem;
-    color: var(--color-text-secondary);
-    line-height: 1.7;
-    padding: 0.1rem 0 0.1rem 1.1rem;
-    margin: 0.5rem 0 0.6rem 0.2rem;
-    border-left: 1px solid var(--color-border);
-    text-align: justify;
-    text-justify: inter-word;
-    -webkit-hyphens: auto;
-    hyphens: auto;
-    text-wrap: pretty;
 }
 
 /* ===========================
