@@ -284,14 +284,14 @@ h1:first-child {
 }
 
 h2 {
-    font-family: var(--font-sans);
-    font-size: 1rem;
+    font-family: var(--font-serif);
+    font-size: 0.8rem;
     line-height: 1.4;
-    margin-top: var(--space-xl);
-    margin-bottom: var(--space-lg);
-    font-weight: 700;
-    color: var(--color-text-primary);
-    letter-spacing: 0.05em;
+    margin-top: 2.75rem;
+    margin-bottom: 1.6rem;
+    font-weight: 600;
+    color: var(--color-text-tertiary);
+    letter-spacing: 0.12em;
     text-transform: uppercase;
     padding-bottom: var(--space-sm);
     border-bottom: 1px solid var(--color-border);
@@ -380,17 +380,8 @@ li {
    Research Publications - Card Design
    =========================== */
 dl {
-    margin-bottom: var(--space-lg);
-    padding: var(--space-md) var(--space-lg);
-    background-color: var(--color-bg-secondary);
-    border-radius: var(--radius-md);
-    border: 1px solid var(--color-border);
-    transition: all var(--transition-base);
-}
-
-dl:hover {
-    box-shadow: var(--shadow-sm);
-    border-color: var(--color-text-tertiary);
+    margin: 0 0 1.9rem;
+    padding: 0;
 }
 
 /* Tighter spacing for academic appointments only */
@@ -425,9 +416,9 @@ dl:hover {
 dt {
     font-family: var(--font-serif);
     font-weight: 600;
-    font-size: 1.05rem;
+    font-size: 1.1rem;
     line-height: 1.35;
-    margin-bottom: var(--space-sm);
+    margin-bottom: 0.3rem;
     color: var(--color-text-primary);
 }
 
@@ -460,10 +451,27 @@ dt a:hover {
 
 dd {
     margin-left: 0;
-    margin-bottom: var(--space-sm);
-    color: var(--color-text-secondary);
-    font-size: 0.875rem;
-    line-height: 1.45;
+    margin-bottom: 0.15rem;
+    color: #3b4252;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+/* Links in entries are dark navy with a quiet underline, not bright blue */
+dd a {
+    color: #232d4b;
+    text-decoration: underline;
+    text-decoration-color: rgba(35, 45, 75, 0.3);
+    text-underline-offset: 2px;
+}
+
+dd a:hover {
+    color: #000;
+    text-decoration-color: currentColor;
+}
+
+dd a::after {
+    display: none;
 }
 
 dd:last-child {
@@ -498,20 +506,18 @@ dd.abstract-toggle + dd.presentation-note {
 /* Header matches the Abstract toggle so both sit on the same vertical rail */
 summary.presentation-label {
     cursor: pointer;
-    font-size: 0.875rem;
-    color: var(--color-accent);
-    font-weight: 600;
+    font-size: 0.85rem;
+    color: #3b4252;
+    font-weight: 500;
     list-style: none;
     display: inline-flex;
     align-items: center;
     gap: var(--space-sm);
-    padding: var(--space-sm) var(--space-md);
-    border-radius: var(--radius-md);
-    transition: all var(--transition-fast);
+    padding: 0.15rem 0;
 }
 
 summary.presentation-label:hover {
-    background-color: var(--color-accent-light);
+    color: #000;
 }
 
 summary.presentation-label::-webkit-details-marker {
@@ -532,15 +538,13 @@ dd.presentation-note details[open] summary.presentation-label::before {
    left, venue on the right, hairline dividers between rows */
 ul.presentation-list {
     list-style: none;
-    margin: var(--space-md) 0 0;
-    padding: var(--space-xs) var(--space-lg);
+    margin: 0.5rem 0 0.6rem 0.2rem;
+    padding: 0.1rem 0 0.1rem 1.1rem;
     font-family: var(--font-serif);
-    font-size: 0.9375rem;
+    font-size: 0.9rem;
     line-height: 1.5;
     color: var(--color-text-secondary);
-    background-color: var(--color-bg-primary);
-    border: 1px solid var(--color-border);
-    border-radius: var(--radius-md);
+    border-left: 1px solid var(--color-border);
 }
 
 ul.presentation-list li {
@@ -549,12 +553,7 @@ ul.presentation-list li {
     column-gap: var(--space-md);
     align-items: baseline;
     margin-bottom: 0;
-    padding: 0.55rem 0;
-    border-bottom: 1px solid var(--color-border);
-}
-
-ul.presentation-list li:last-child {
-    border-bottom: none;
+    padding: 0.25rem 0;
 }
 
 .pres-date {
@@ -584,7 +583,7 @@ ul.presentation-list li:last-child {
 
 @media (max-width: 480px) {
     ul.presentation-list {
-        padding: var(--space-xs) var(--space-md);
+        padding-left: var(--space-md);
     }
 
     ul.presentation-list li {
@@ -595,30 +594,27 @@ ul.presentation-list li:last-child {
 
 /* Abstract Toggle */
 dd.abstract-toggle {
-    margin-top: var(--space-md);
+    margin-top: 0.45rem;
 }
 
 dd.abstract-toggle details {
-    border-top: 1px solid var(--color-border);
-    padding-top: var(--space-sm);
+    padding-top: 0;
 }
 
 dd.abstract-toggle details summary {
     cursor: pointer;
-    font-size: 0.875rem;
-    color: var(--color-accent);
-    font-weight: 600;
+    font-size: 0.85rem;
+    color: #3b4252;
+    font-weight: 500;
     list-style: none;
     display: inline-flex;
     align-items: center;
     gap: var(--space-sm);
-    padding: var(--space-sm) var(--space-md);
-    border-radius: var(--radius-md);
-    transition: all var(--transition-fast);
+    padding: 0.15rem 0;
 }
 
 dd.abstract-toggle details summary:hover {
-    background-color: var(--color-accent-light);
+    color: #000;
 }
 
 dd.abstract-toggle details summary::-webkit-details-marker {
@@ -640,11 +636,9 @@ dd.abstract-toggle details p {
     font-size: 0.9375rem;
     color: var(--color-text-secondary);
     line-height: 1.7;
-    margin-top: var(--space-md);
-    padding: var(--space-md) var(--space-lg);
-    background-color: var(--color-bg-primary);
-    border-radius: var(--radius-md);
-    border: 1px solid var(--color-border);
+    padding: 0.1rem 0 0.1rem 1.1rem;
+    margin: 0.5rem 0 0.6rem 0.2rem;
+    border-left: 1px solid var(--color-border);
     text-align: justify;
     text-justify: inter-word;
     -webkit-hyphens: auto;
