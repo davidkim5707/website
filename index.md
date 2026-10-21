@@ -84,7 +84,7 @@ I am on the 2026–2027 job market. You can find my CV [here]({{ site.baseurl }}
 
 <dl>
   <dt>Distinctive Roles of Financial and Wealth Shocks in Consumption Dynamics</dt>
-  <dd>with Kamila Sommer (Federal Reserve Board), Jon Willis (Federal Reserve Bank of Atlanta), and <a href="http://www.tzha.net/" target="_blank">Tao Zha</a> (Emory University)</dd>
+  <dd>with <a href="https://www.kamilasommer.net/" target="_blank">Kamila Sommer</a> (Federal Reserve Board), <a href="https://www.atlantafed.org/who-we-are/people/research/economists/jon-willis" target="_blank">Jon Willis</a> (Federal Reserve Bank of Atlanta), and <a href="http://www.tzha.net/" target="_blank">Tao Zha</a> (Emory University)</dd>
 </dl>
 
 <dl>
