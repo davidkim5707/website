@@ -104,7 +104,7 @@ body {
 }
 
 .masthead-inner {
-    padding: var(--space-md) var(--space-xl);
+    padding: var(--space-md) var(--space-xl) var(--space-md) var(--space-2xl);
     margin-left: 280px;
     transition: all var(--transition-base);
 }
