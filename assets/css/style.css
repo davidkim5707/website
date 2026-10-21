@@ -590,6 +590,11 @@ ul.presentation-list li {
         grid-template-columns: 1fr;
         row-gap: 0.1rem;
     }
+
+    /* Justified text opens wide gaps on a narrow screen */
+    dd.abstract-toggle details p {
+        text-align: left;
+    }
 }
 
 /* Abstract Toggle */
