@@ -109,6 +109,14 @@ body {
     transition: all var(--transition-base);
 }
 
+/* On screens wider than the 1280px page, the page is centered, so the menu
+   shifts with it to stay above the content column */
+@media (min-width: 1281px) {
+    .masthead-inner {
+        margin-left: calc(50% - 360px);
+    }
+}
+
 .masthead-nav {
     display: flex;
     gap: var(--space-xl);
@@ -141,7 +149,7 @@ body {
 .page-wrapper {
     display: flex;
     min-height: 100vh;
-    max-width: 1500px;
+    max-width: 1280px;
     margin: 0 auto;
     padding-top: 72px;
 }
