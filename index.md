@@ -83,6 +83,11 @@ I am on the 2026–2027 job market. You can find my CV [here]({{ site.baseurl }}
 </dl>
 
 <dl>
+  <dt>Distinctive Roles of Financial and Wealth Shocks in Consumption Dynamics</dt>
+  <dd>with Kamila Sommer (Federal Reserve Board), Jon Willis (Federal Reserve Bank of Atlanta), and <a href="http://www.tzha.net/" target="_blank">Tao Zha</a> (Emory University)</dd>
+</dl>
+
+<dl>
   <dt>From Underestimation to Overshooting? A Reappraisal of IMF Fiscal Multiplier Assumptions Across Crises</dt>
   <dd>with Jeremie Cohen-Setton (International Monetary Fund)</dd>
 </dl>
