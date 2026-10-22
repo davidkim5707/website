@@ -25,7 +25,7 @@ jobs:
             fi
           }
           fetch Dawis_Kim_CV.pdf "https://www.dropbox.com/scl/fi/c4uq7ef84mt263tydrm8i/Dawis_Kim_CV.pdf?rlkey=i1wwnm8q14e2rxq02g4kyxkgn&st=96sv37r7&raw=1"
-          fetch jmp_dawis.pdf "https://www.dropbox.com/scl/fi/w2dak1iipdy4sewxy6xnw/jmp_dawis.pdf?rlkey=hubsqx7d18fwqsx0a7iknbm7a&raw=1"
+          fetch jmp_dawis.pdf "https://www.dropbox.com/scl/fi/cwj9g8czols7wshhn90rs/Dawis_Kim_JMP.pdf?rlkey=vb6py8v507ezfawedr0c2yyrw&raw=1"
 
       - name: Commit the PDFs that changed
         id: commit
