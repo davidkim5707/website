@@ -21,7 +21,7 @@ I am on the 2026–2027 job market. You can find my CV [here]({{ site.baseurl }}
 </dl>
 
 <dl>
-  <dt>Short-Term Consultant, IMF, IEO</dt>
+  <dt>Contractual Research Officer, IMF, IEO</dt>
   <dd>Fall 2024</dd>
   <dd>Follow-up work from IMF-FIP internship</dd>
 </dl>
