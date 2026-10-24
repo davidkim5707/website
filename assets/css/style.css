@@ -535,12 +535,14 @@ dd.entry-links {
 
 /* The row's links and toggles use the same blue as the links in the About text */
 .entry-links a,
+.slides-links a,
 .ln label {
     color: var(--color-accent);
     text-decoration: none;
 }
 
 .entry-links a:hover,
+.slides-links a:hover,
 .ln label:hover {
     color: var(--color-accent-hover);
     text-decoration: underline;
@@ -578,6 +580,7 @@ dd.entry-panel {
 }
 
 dl:has(input.t-abs:checked) dd.panel-abs,
+dl:has(input.t-slides:checked) dd.panel-slides,
 dl:has(input.t-pres:checked) dd.panel-pres {
     display: block;
 }
@@ -653,6 +656,105 @@ ul.presentation-list li {
     dd.panel-abs p {
         text-align: left;
     }
+}
+
+/* Slide viewer: one slide at a time, with a small control bar underneath */
+.slides {
+    outline: none;
+}
+
+.slides-img {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    background-color: var(--color-bg-secondary);
+    border: 1px solid var(--color-border);
+    cursor: pointer;
+}
+
+.slides:focus-visible .slides-img {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 2px;
+}
+
+.slides-bar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem 0.75rem;
+    margin-top: 0.6rem;
+    font-size: 0.85rem;
+    color: var(--color-text-secondary);
+}
+
+.slides-bar button {
+    font: inherit;
+    line-height: 1.4;
+    padding: 0.1rem 0.7rem;
+    color: var(--color-accent);
+    background: none;
+    border: 1px solid var(--color-border);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.slides-bar button:hover:not(:disabled) {
+    border-color: var(--color-accent);
+}
+
+.slides-bar button:disabled {
+    color: var(--color-text-tertiary);
+    cursor: default;
+}
+
+.slides-count {
+    min-width: 4.5rem;
+    text-align: center;
+    font-variant-numeric: tabular-nums;
+}
+
+.slides-links {
+    margin-left: auto;
+    display: flex;
+    align-items: baseline;
+    gap: 1rem;
+}
+
+.slides-bar .slides-full {
+    padding: 0;
+    border: none;
+}
+
+.slides-bar .slides-full:hover:not(:disabled) {
+    color: var(--color-accent-hover);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+.slides:fullscreen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #000;
+    padding: 1rem;
+}
+
+.slides:fullscreen .slides-img {
+    width: auto;
+    max-width: 100%;
+    max-height: calc(100vh - 5rem);
+    margin: 0 auto;
+    border: none;
+}
+
+.slides:fullscreen .slides-bar {
+    justify-content: center;
+    color: #cbd5e0;
+}
+
+.slides:fullscreen .slides-links {
+    margin-left: 0;
 }
 
 /* ===========================

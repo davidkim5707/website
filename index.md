@@ -46,9 +46,24 @@ I am on the 2026–2027 job market. You can find my CV [here]({{ site.baseurl }}
     <span class="ln"><a href="{{ site.baseurl }}/jmp_dawis.pdf">PDF</a> <span class="ln-note">(Oct &rsquo;26)</span></span>
     <span class="ln"><a href="https://github.com/davidkim5707/svar-hetero-toolkit">Code</a> <span class="ln-note">(HARS-Z sampler)</span></span>
     <span class="ln"><input type="checkbox" id="jmp-abstract" class="toggle-input t-abs"><label for="jmp-abstract">Abstract</label></span>
+    <span class="ln"><input type="checkbox" id="jmp-slides" class="toggle-input t-slides"><label for="jmp-slides">Slides</label></span>
     <span class="ln"><input type="checkbox" id="jmp-presentations" class="toggle-input t-pres"><label for="jmp-presentations">Presentations</label></span>
   </dd>
   <dd class="entry-panel panel-abs"><p>I ask whether the financing of Federal Reserve balance-sheet policy shapes its effects on output and the price level. In a monthly U.S. SVAR I identify two balance-sheet shocks, one financed by reserves and one by overnight reverse repurchases (ON RRP). A reserve-financed contraction raises the risk premium in corporate bond spreads and lowers output and the price level. An ON RRP-financed contraction moves neither the premium nor the price level, and its effect on output is less certain and shorter-lived. The reserve-financed shock is the main source of the unexpected movements in output and the price level over the quantitative easing and tightening that reserves financed. Which liability finances a balance-sheet policy shapes what that policy does.</p></dd>
+  <dd class="entry-panel panel-slides">
+    <div class="slides" tabindex="0" data-count="65" data-base="{{ site.baseurl }}/assets/slides/jmp/s-" data-ext="jpg">
+      <img class="slides-img" width="1280" height="720" alt="Slide 1 of 65">
+      <div class="slides-bar">
+        <button type="button" class="slides-prev" aria-label="Previous slide">&lsaquo;</button>
+        <span class="slides-count" aria-live="polite">1 / 65</span>
+        <button type="button" class="slides-next" aria-label="Next slide">&rsaquo;</button>
+        <span class="slides-links">
+          <button type="button" class="slides-full">Full screen</button>
+          <a href="{{ site.baseurl }}/jmp_slides.pdf">PDF</a>
+        </span>
+      </div>
+    </div>
+  </dd>
   <dd class="entry-panel panel-pres">
     <ul class="presentation-list">
       <li><span class="pres-venue">North American Summer Meeting, Econometric Society</span><span class="pres-date">Jun 2026</span></li>
