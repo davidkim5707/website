@@ -51,11 +51,11 @@ I am on the 2026–2027 job market. You can find my CV [here]({{ site.baseurl }}
   </dd>
   <dd class="entry-panel panel-abs"><p>I ask whether the financing of Federal Reserve balance-sheet policy shapes its effects on output and the price level. In a monthly U.S. SVAR I identify two balance-sheet shocks, one financed by reserves and one by overnight reverse repurchases (ON RRP). A reserve-financed contraction raises the risk premium in corporate bond spreads and lowers output and the price level. An ON RRP-financed contraction moves neither the premium nor the price level, and its effect on output is less certain and shorter-lived. The reserve-financed shock is the main source of the unexpected movements in output and the price level over the quantitative easing and tightening that reserves financed. Which liability finances a balance-sheet policy shapes what that policy does.</p></dd>
   <dd class="entry-panel panel-slides">
-    <div class="slides" tabindex="0" data-count="65" data-base="{{ site.baseurl }}/assets/slides/jmp/s-" data-ext="jpg">
-      <img class="slides-img" width="1280" height="720" alt="Slide 1 of 65">
+    <div class="slides" tabindex="0" data-count="{{ site.data.slides.jmp.count }}" data-version="{{ site.data.slides.jmp.version }}" data-base="{{ site.baseurl }}/assets/slides/jmp/s-" data-ext="jpg">
+      <img class="slides-img" width="1280" height="720" alt="Slide 1">
       <div class="slides-bar">
         <button type="button" class="slides-prev" aria-label="Previous slide">&lsaquo;</button>
-        <span class="slides-count" aria-live="polite">1 / 65</span>
+        <span class="slides-count" aria-live="polite">1 / {{ site.data.slides.jmp.count }}</span>
         <button type="button" class="slides-next" aria-label="Next slide">&rsaquo;</button>
         <span class="slides-links">
           <button type="button" class="slides-full">Full screen</button>

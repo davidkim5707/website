@@ -1,0 +1,75 @@
+name: Sync slides from Dropbox
+
+on:
+  schedule:
+    # Every Monday at 12:00 UTC
+    - cron: "0 12 * * 1"
+  workflow_dispatch:
+    inputs:
+      url:
+        description: "Slide PDF URL to use instead of the configured one"
+        required: false
+        default: ""
+      force:
+        description: "Rebuild the slide images even if the PDF is unchanged"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+env:
+  # Dropbox shared link of the slide PDF, ending in raw=1. While this is empty
+  # and no URL is passed by hand, the workflow does nothing.
+  SLIDES_URL: ""
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download the slide PDF
+        id: download
+        env:
+          INPUT_URL: ${{ inputs.url }}
+        run: |
+          url="${INPUT_URL:-$SLIDES_URL}"
+          if [ -z "$url" ]; then
+            echo "No slide URL configured, nothing to do"
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          curl -fsSL -o slides.new "$url"
+          if [ "$(head -c 4 slides.new)" != "%PDF" ]; then
+            echo "The slide URL did not return a PDF"; exit 1
+          fi
+          echo "skip=false" >> "$GITHUB_OUTPUT"
+
+      - name: Rebuild the slide images and commit
+        if: steps.download.outputs.skip == 'false'
+        env:
+          FORCE: ${{ inputs.force }}
+        run: |
+          if cmp -s slides.new jmp_slides.pdf && [ "$FORCE" != "true" ]; then
+            echo "Slides unchanged"; exit 0
+          fi
+          command -v pdftoppm >/dev/null || sudo apt-get install -y poppler-utils
+          pages=$(pdfinfo slides.new | awk '/^Pages:/{print $2}')
+          rm -f assets/slides/jmp/s-*.jpg
+          pdftoppm -jpeg -jpegopt quality=82 -scale-to-x 1280 -scale-to-y -1 slides.new assets/slides/jmp/s
+          made=$(ls assets/slides/jmp/s-*.jpg | wc -l)
+          if [ "$made" != "$pages" ]; then
+            echo "Expected $pages images but made $made"; exit 1
+          fi
+          mv slides.new jmp_slides.pdf
+          printf 'jmp:\n  count: %s\n  version: %s\n' "$pages" "$(date -u +%Y%m%d%H%M)" > _data/slides.yml
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add jmp_slides.pdf _data/slides.yml assets/slides/jmp
+          if git diff --cached --quiet; then
+            echo "Nothing to commit"; exit 0
+          fi
+          git commit -m "Sync slides from Dropbox"
+          git pull --rebase origin main
+          git push

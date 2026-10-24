@@ -1,10 +1,12 @@
 /* Slide viewer: shows a deck stored as numbered images, one at a time.
-   Images load only when the viewer is first opened. */
+   Images load only when the viewer is opened, and it always opens on slide 1. */
 (function () {
     function init(root) {
         var count = parseInt(root.getAttribute('data-count'), 10);
         var base = root.getAttribute('data-base');
         var ext = root.getAttribute('data-ext') || 'jpg';
+        var version = root.getAttribute('data-version');
+        var digits = String(count).length;
         var img = root.querySelector('.slides-img');
         var label = root.querySelector('.slides-count');
         var prev = root.querySelector('.slides-prev');
@@ -12,8 +14,11 @@
         var full = root.querySelector('.slides-full');
         var current = 1;
 
+        // File names are zero-padded to the number of digits in the page count
         function url(k) {
-            return base + (k < 10 ? '0' + k : '' + k) + '.' + ext;
+            var n = String(k);
+            while (n.length < digits) { n = '0' + n; }
+            return base + n + '.' + ext + (version ? '?v=' + version : '');
         }
 
         function show(k) {
@@ -69,16 +74,13 @@
             full.hidden = true;
         }
 
+        // Every time the viewer is opened it starts again from the first slide
         var toggle = root.closest('dl').querySelector('input.t-slides');
-        var loaded = false;
-        function maybeLoad() {
-            if (toggle.checked && !loaded) {
-                loaded = true;
-                show(1);
-            }
+        function onToggle() {
+            if (toggle.checked) { show(1); }
         }
-        toggle.addEventListener('change', maybeLoad);
-        maybeLoad();
+        toggle.addEventListener('change', onToggle);
+        onToggle();
     }
 
     document.addEventListener('DOMContentLoaded', function () {
