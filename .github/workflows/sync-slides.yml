@@ -21,7 +21,7 @@ permissions:
 env:
   # Dropbox shared link of the slide PDF, ending in raw=1. While this is empty
   # and no URL is passed by hand, the workflow does nothing.
-  SLIDES_URL: ""
+  SLIDES_URL: "https://www.dropbox.com/scl/fi/e1bwkl40q7fr0btdla0hx/jobtalk_dawis_long_nobuild.pdf?rlkey=37una4a83c4cpinex34bsj5p7&raw=1"
 
 jobs:
   sync:
