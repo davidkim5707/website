@@ -54,7 +54,10 @@ jobs:
           if cmp -s slides.new jmp_slides.pdf && [ "$FORCE" != "true" ]; then
             echo "Slides unchanged"; exit 0
           fi
-          command -v pdftoppm >/dev/null || sudo apt-get install -y poppler-utils
+          if ! command -v pdftoppm >/dev/null; then
+            sudo apt-get update -qq
+            sudo apt-get install -y -qq poppler-utils
+          fi
           pages=$(pdfinfo slides.new | awk '/^Pages:/{print $2}')
           rm -f assets/slides/jmp/s-*.jpg
           pdftoppm -jpeg -jpegopt quality=82 -scale-to-x 1280 -scale-to-y -1 slides.new assets/slides/jmp/s
