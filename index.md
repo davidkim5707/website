@@ -79,15 +79,15 @@ I am on the 2026–2027 job market. You can find my CV [here]({{ site.baseurl }}
 ## WORKING PAPERS
 
 <dl class="entry">
-  <dt><a href="https://www.nber.org/system/files/working_papers/w35483/w35483.pdf">Sharpening Economic Interpretation with HARS</a> <span class="paper-status">(submitted)</span></dt>
+  <dt><a href="{{ site.baseurl }}/hars_paper.pdf">Sharpening Economic Interpretation with HARS</a> <span class="paper-status">(submitted)</span></dt>
   <dd>with <a href="http://www.tzha.net/" target="_blank">Tao Zha</a> (Emory University)</dd>
   <dd class="entry-links">
     <span class="ln"><a href="https://www.nber.org/papers/w35483">NBER</a></span>
-    <span class="ln"><a href="https://www.nber.org/system/files/working_papers/w35483/w35483.pdf">PDF</a> <span class="ln-note">(Jul &rsquo;26)</span></span>
+    <span class="ln"><a href="{{ site.baseurl }}/hars_paper.pdf">PDF</a> <span class="ln-note">(Nov &rsquo;26)</span></span>
     <span class="ln"><a href="https://github.com/davidkim5707/svar-hetero-toolkit/tree/main/replications/kim_zha2026_hars">Replication code</a></span>
     <span class="ln"><input type="checkbox" id="hars-abstract" class="toggle-input t-abs"><label for="hars-abstract">Abstract</label></span>
   </dd>
-  <dd class="entry-panel panel-abs"><p>We develop a unified framework that combines shock volatility with sign and narrative restrictions and provides the theoretical foundation for the computationally efficient sampler HARS. HARS preserves the heteroskedastic likelihood and can be combined with any posterior simulator for the heteroskedastic model. In monetary policy, oil market, and fiscal policy models, the same restrictions deliver substantively different economics once shock heteroskedasticity is accounted for. Homoskedastic SVARs put uncertainty in the wrong place, pushing shock-scale variation into impulse-response uncertainty. Heteroskedasticity sharpens dynamic responses, alters economic conclusions, and restores 90% credible intervals as a practical standard for economic inference.</p></dd>
+  <dd class="entry-panel panel-abs"><p>We compare homoskedastic and heteroskedastic specifications under the same economic restrictions in three well-established SVAR applications: monetary policy, oil markets, and fiscal transmission. The heteroskedastic specification yields a credible output contraction after monetary tightening, stronger evidence that oil-specific demand shocks raise oil prices and reduce early economic activity, and a shorter credible spending expansion without a fiscal price puzzle. The differences concern posterior location, response persistence, and interval widths. HARS makes these comparisons feasible through a general MCMC construction whose theoretical foundation combines likelihood-preserving rotations, an explicit posterior target, and posterior-draw repair.</p></dd>
 </dl>
 
 ## WORK IN PROGRESS
