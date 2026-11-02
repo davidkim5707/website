@@ -42,8 +42,8 @@ I am on the 2026–2027 job market. You can find my CV [here]({{ site.baseurl }}
 <dl class="entry">
   <dt>How the Financing of Balance-Sheet Policy Shapes Its Effects</dt>
   <dd class="entry-links">
-    <span class="ln"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7214338">SSRN</a></span>
     <span class="ln"><a href="{{ site.baseurl }}/jmp_dawis.pdf">PDF</a> <span class="ln-note">(Oct &rsquo;26)</span></span>
+    <span class="ln"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7214338">SSRN</a></span>
     <span class="ln"><a href="https://github.com/davidkim5707/svar-hetero-toolkit">Code</a> <span class="ln-note">(HARS-Z sampler)</span></span>
     <span class="ln"><input type="checkbox" id="jmp-abstract" class="toggle-input t-abs"><label for="jmp-abstract">Abstract</label></span>
     <span class="ln"><input type="checkbox" id="jmp-slides" class="toggle-input t-slides"><label for="jmp-slides">Slides</label></span>
@@ -82,8 +82,8 @@ I am on the 2026–2027 job market. You can find my CV [here]({{ site.baseurl }}
   <dt><a href="{{ site.baseurl }}/hars_paper.pdf">Sharpening Economic Interpretation with HARS</a> <span class="paper-status">(submitted)</span></dt>
   <dd>with <a href="http://www.tzha.net/" target="_blank">Tao Zha</a> (Emory University)</dd>
   <dd class="entry-links">
-    <span class="ln"><a href="https://www.nber.org/papers/w35483">NBER</a></span>
     <span class="ln"><a href="{{ site.baseurl }}/hars_paper.pdf">PDF</a> <span class="ln-note">(Nov &rsquo;26)</span></span>
+    <span class="ln"><a href="https://www.nber.org/papers/w35483">NBER</a></span>
     <span class="ln"><a href="https://github.com/davidkim5707/svar-hetero-toolkit/tree/main/replications/kim_zha2026_hars">Replication code</a></span>
     <span class="ln"><input type="checkbox" id="hars-abstract" class="toggle-input t-abs"><label for="hars-abstract">Abstract</label></span>
   </dd>
