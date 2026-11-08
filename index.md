@@ -112,8 +112,8 @@ I am on the 2026–2027 job market. You can find my CV [here]({{ site.baseurl }}
 
 <dl>
   <dt><a href="https://www.tandfonline.com/doi/full/10.1080/1226508X.2021.1875868">The Macroeconomic Consequences of Stimulating Offline Consumption during COVID-19</a></dt>
-  <dd>with <a href="https://sites.google.com/view/myungkyushim/home" target="_blank">Myunkyu Shim</a> (Yonsei University) and Minseung Kim</dd>
-  <dd><strong>Global Economic Review</strong>, March 2021</dd>
+  <dd>with Minseung Kim and <a href="https://sites.google.com/view/myungkyushim/home" target="_blank">Myungkyu Shim</a> (Yonsei University)</dd>
+  <dd><strong>Global Economic Review</strong> 50 (1), 20&ndash;42, January 2021</dd>
 </dl>
 
 # REPLICATION EXERCISES
